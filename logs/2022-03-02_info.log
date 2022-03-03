@@ -1,0 +1,6723 @@
+2022-03-02 10:37:25 info: MybScmSvr listening on port : 3001
+2022-03-02 10:37:31 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 10:37:31 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646185051156",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 10:37:31 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:37:31 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 10:37:31 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302103731_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302103731_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 10:37:31 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 10:37:31 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '108'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 10:37:31 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "dQB.i3R0hxSBIyY.RE587v4yLQYABCTN",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302103731_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302103731_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302103731_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 10:38:40 info: MybScmSvr listening on port : 3001
+2022-03-02 10:38:48 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 10:38:48 info: 
+{
+  "cleanlabelId": "16",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646185127999",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 10:38:48 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:38:48 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 10:38:48 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302103848_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302103848_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 10:38:48 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 10:38:48 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='109'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '16'
+    
+2022-03-02 10:38:48 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "YLiZtITb3ht.vxSCU0WPby8MnxmSm1EZ",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302103848_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302103848_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302103848_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 10:39:23 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:39:23 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:39:23 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:39:23 error: Error: Error: Error: Error: Parameter #{cleanlabelNutrientNm} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:252:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:252:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:258:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:42:52 info: MybScmSvr listening on port : 3001
+2022-03-02 10:42:58 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:42:58 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:42:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:42:58 error: Error: Error: Error: Error: Parameter #{cleanlabelNutrientNm} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:270:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:270:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:276:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:43:30 info: MybScmSvr listening on port : 3001
+2022-03-02 10:43:31 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:43:31 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:43:31 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:43:32 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:43:32 info: [sql] :  
+2022-03-02 10:43:32 error: Error: Error: Error: Error: Query was empty
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+{
+  "message": "Query was empty",
+  "code": "ER_EMPTY_QUERY",
+  "errno": 1065,
+  "sql": " ",
+  "sqlState": "42000",
+  "sqlMessage": "Query was empty"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:51:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:225:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:43:57 info: MybScmSvr listening on port : 3001
+2022-03-02 10:43:59 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:43:59 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:43:59 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:43:59 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:43:59 info: [sql] :  
+2022-03-02 10:43:59 error: Error: Error: Error: Error: Query was empty
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+{
+  "message": "Query was empty",
+  "code": "ER_EMPTY_QUERY",
+  "errno": 1065,
+  "sql": " ",
+  "sqlState": "42000",
+  "sqlMessage": "Query was empty"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:51:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:21)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:233:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:44:45 info: MybScmSvr listening on port : 3001
+2022-03-02 10:44:46 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:44:46 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:44:46 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:44:47 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:44:47 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 10:44:47 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:44:47 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '18'
+    
+2022-03-02 10:45:14 info: MybScmSvr listening on port : 3001
+2022-03-02 10:45:15 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 10:45:15 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 10:45:15 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:45:15 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:45:15 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 10:45:15 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 10:45:15 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '18'
+    
+2022-03-02 10:46:45 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 10:46:45 info: 
+{
+  "cleanlabelId": "16",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646185605161",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 10:46:45 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 10:46:45 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 10:46:45 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302104645_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302104645_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 10:46:45 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 10:46:45 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='111'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '16'
+    
+2022-03-02 10:46:45 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "rWhNqUL_lu8H5e8Dnp7ELjhDFCmHNuX4",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302104645_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302104645_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302104645_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 12:53:55 info: MybScmSvr listening on port : 3001
+2022-03-02 12:53:59 info: [POST] /v1/product/selectCleanLabelList
+2022-03-02 12:53:59 info: 
+{}
+2022-03-02 12:53:59 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 12:53:59 info: [EXCUTE SQL] productMapper > selectCleanLabelList
+2022-03-02 12:53:59 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+    
+2022-03-02 13:05:28 info: [POST] /v1/product/insertProductInfo
+2022-03-02 13:05:28 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646193928131",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:05:28 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:05:28 error: Error: Error: Error: Error: Parameter #{productExplain} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:46:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:46:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:88:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:06:14 info: [POST] /v1/product/insertProductInfo
+2022-03-02 13:06:14 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "null",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-2-1646193974688",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:06:14 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:06:14 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 13:06:14 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , 'null'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:14 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 13:06:14 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '211'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:14 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 13:06:14 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '211'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:14 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:06:14 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302130614_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302130614_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:06:14 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 13:06:14 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '211'
+        , '114'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 13:06:15 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "3gkUDL3qQ.UuPfZ1GLleeKVB6lCr.KHR",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302130614_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302130614_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302130614_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:06:43 info: [POST] /v1/product/insertProductInfo
+2022-03-02 13:06:43 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "NULL",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-3-1646194003835",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:06:43 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:06:43 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 13:06:43 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , 'NULL'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:43 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 13:06:43 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '212'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:43 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 13:06:43 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '212'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:06:43 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:06:43 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302130643_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302130643_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:06:43 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 13:06:43 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '212'
+        , '115'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 13:06:44 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "RQaVkCcWxParTIQKSDsJ7Ttxm5arHR2i",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302130643_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302130643_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302130643_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:07:17 info: MybScmSvr listening on port : 3001
+2022-03-02 13:07:20 info: [POST] /v1/product/insertProductInfo
+2022-03-02 13:07:20 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646194040522",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:07:20 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:07:20 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 13:07:20 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:07:20 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 13:07:20 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '213'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:07:20 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 13:07:20 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '213'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:07:20 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:07:20 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302130720_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302130720_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:07:20 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 13:07:20 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '213'
+        , '116'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 13:07:21 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "gTbvArCkRBmS6HJpsZK5c31A8dgbRvTr",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302130720_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302130720_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302130720_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:13:20 info: MybScmSvr listening on port : 3001
+2022-03-02 13:13:23 info: [POST] /v1/product/deleteFile
+2022-03-02 13:13:23 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 13:13:23 warn: invalid signature
+2022-03-02 13:13:55 info: [POST] /v1/product/deleteFile
+2022-03-02 13:13:55 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 13:13:55 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:13:55 info: [EXCUTE SQL] productMapper > selectCleanLabelList
+2022-03-02 13:13:55 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+    
+2022-03-02 13:15:02 info: MybScmSvr listening on port : 3001
+2022-03-02 13:15:04 info: [POST] /v1/product/deleteFile
+2022-03-02 13:15:04 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 13:15:04 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:15:04 info: [EXCUTE SQL] productMapper > selectCleanLabelList
+2022-03-02 13:15:04 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+    
+2022-03-02 13:17:36 info: MybScmSvr listening on port : 3001
+2022-03-02 13:17:37 info: [POST] /v1/product/deleteFile
+2022-03-02 13:17:37 info: 
+{
+  "cleanlabelId": [
+    "17",
+    "18"
+  ]
+}
+2022-03-02 13:17:37 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:17:37 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:17:37 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '["17","18"]'
+    
+2022-03-02 13:17:54 info: MybScmSvr listening on port : 3001
+2022-03-02 13:17:58 info: [POST] /v1/product/deleteFile
+2022-03-02 13:17:58 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:17:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:17:58 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:17:58 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:18:38 info: MybScmSvr listening on port : 3001
+2022-03-02 13:18:40 info: [POST] /v1/product/deleteFile
+2022-03-02 13:18:40 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:18:40 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:18:41 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:18:41 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:19:05 info: MybScmSvr listening on port : 3001
+2022-03-02 13:19:06 info: [POST] /v1/product/deleteFile
+2022-03-02 13:19:06 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:19:06 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:19:06 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:19:06 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:19:26 info: MybScmSvr listening on port : 3001
+2022-03-02 13:19:27 info: [POST] /v1/product/deleteFile
+2022-03-02 13:19:27 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:19:27 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:19:27 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:19:27 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:20:40 info: MybScmSvr listening on port : 3001
+2022-03-02 13:20:42 info: [POST] /v1/product/deleteFile
+2022-03-02 13:20:42 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:20:42 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:20:43 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:20:43 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:21:07 info: MybScmSvr listening on port : 3001
+2022-03-02 13:21:08 info: [POST] /v1/product/deleteFile
+2022-03-02 13:21:08 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:21:08 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:21:09 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:21:09 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:21:09 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:217:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:21:31 info: MybScmSvr listening on port : 3001
+2022-03-02 13:21:33 info: [POST] /v1/product/deleteFile
+2022-03-02 13:21:33 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:21:33 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:21:33 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:21:33 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:21:33 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:218:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:22:53 info: MybScmSvr listening on port : 3001
+2022-03-02 13:22:55 info: [POST] /v1/product/deleteFile
+2022-03-02 13:22:55 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:22:55 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:22:55 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:22:55 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:23:22 info: MybScmSvr listening on port : 3001
+2022-03-02 13:23:23 info: [POST] /v1/product/deleteFile
+2022-03-02 13:23:23 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:23:23 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:23:24 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:23:24 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:23:58 info: MybScmSvr listening on port : 3001
+2022-03-02 13:23:58 info: [POST] /v1/product/deleteFile
+2022-03-02 13:23:58 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:23:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:23:59 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:23:59 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:24:07 info: MybScmSvr listening on port : 3001
+2022-03-02 13:24:09 info: [POST] /v1/product/deleteFile
+2022-03-02 13:24:09 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:24:09 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:24:09 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:24:09 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:25:17 info: MybScmSvr listening on port : 3001
+2022-03-02 13:25:18 info: [POST] /v1/product/deleteFile
+2022-03-02 13:25:18 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:25:18 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:25:19 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:25:19 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:25:30 info: MybScmSvr listening on port : 3001
+2022-03-02 13:25:31 info: [POST] /v1/product/deleteFile
+2022-03-02 13:25:31 info: 
+{
+  "cleanlabelId": "17"
+}
+2022-03-02 13:25:31 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:25:31 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:25:31 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '17'
+    
+2022-03-02 13:26:05 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:05 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646195165564",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:05 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:05 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:05 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:05 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:05 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '117'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:06 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "uOk4AXYiCF5kqSlSbdC1CnBsuxVeYFAM",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:06 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:06 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-2-1646195166991",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:06 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:07 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:07 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:07 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:07 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '118'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:07 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "hj8XlwabOcQhl7Y7cqPg3nV4HkAhQWiv",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:07 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:07 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-3-1646195167882",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:07 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:07 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:07 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:07 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:07 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '119'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:08 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "5vNo4K32e75.cXfpmemh7khtEyQOlIwr",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132607_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:08 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:08 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-4-1646195168641",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:08 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:08 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:08 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:08 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:08 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '120'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:08 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "AsjAhzu1179gc8b8D2bqSKgovTOuGC.t",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:09 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:09 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-5-1646195169213",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:09 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:09 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:09 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132609_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132609_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:09 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:09 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '121'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:09 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "WeXKxK8QSWx0JgvE3_9AgYMYuODBQ11h",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132609_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132609_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132609_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:10 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:10 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-6-1646195170168",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:10 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:10 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:10 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132610_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132610_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:10 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:10 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '122'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:10 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "de6Ib1InjusSm7JGZajWbes5q6.nZN6v",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132610_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132610_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132610_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:11 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 13:26:11 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-7-1646195171073",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 13:26:11 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:11 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 13:26:11 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302132611_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302132611_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 13:26:11 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 13:26:11 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '123'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 13:26:11 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "XFvNCCQIg0eM41hgLTfi2L7FJR3Xtzxd",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302132611_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302132611_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302132611_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 13:26:25 info: MybScmSvr listening on port : 3001
+2022-03-02 13:26:26 info: [POST] /v1/product/deleteFile
+2022-03-02 13:26:26 info: 
+{
+  "cleanlabelId": "28"
+}
+2022-03-02 13:26:26 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:26 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:26:26 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '28'
+    
+2022-03-02 13:26:47 info: MybScmSvr listening on port : 3001
+2022-03-02 13:26:48 info: [POST] /v1/product/deleteFile
+2022-03-02 13:26:48 info: 
+{
+  "cleanlabelId": "28"
+}
+2022-03-02 13:26:48 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:26:48 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:26:48 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '28'
+    
+2022-03-02 13:27:01 info: MybScmSvr listening on port : 3001
+2022-03-02 13:27:02 info: [POST] /v1/product/deleteFile
+2022-03-02 13:27:02 info: 
+{
+  "cleanlabelId": "28"
+}
+2022-03-02 13:27:02 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:27:03 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:27:03 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '28'
+    
+2022-03-02 13:28:38 info: MybScmSvr listening on port : 3001
+2022-03-02 13:28:40 info: [POST] /v1/product/deleteFile
+2022-03-02 13:28:40 info: 
+{
+  "cleanlabelId": "29"
+}
+2022-03-02 13:28:40 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:28:40 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:28:40 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '29'
+    
+2022-03-02 13:28:40 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "l.jUWeOqgvKidGBQrtHa2Aeg1wQgrXbc"
+}
+2022-03-02 13:29:48 info: MybScmSvr listening on port : 3001
+2022-03-02 13:29:51 info: [POST] /v1/product/deleteFile
+2022-03-02 13:29:51 info: 
+{
+  "cleanlabelId": "29"
+}
+2022-03-02 13:29:51 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:29:51 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:29:51 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '29'
+    
+2022-03-02 13:29:51 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "HKC06T6NV594PriPUDb1jLPF.wrFj7Gd"
+}
+2022-03-02 13:33:53 info: MybScmSvr listening on port : 3001
+2022-03-02 13:34:03 info: [POST] /v1/product/deleteFile
+2022-03-02 13:34:03 info: 
+{
+  "cleanlabelId": "29"
+}
+2022-03-02 13:34:03 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:34:03 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:34:03 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '29'
+    
+2022-03-02 13:34:03 error: Error: ReferenceError: str is not defined
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:34:15 info: MybScmSvr listening on port : 3001
+2022-03-02 13:34:16 info: [POST] /v1/product/deleteFile
+2022-03-02 13:34:16 info: 
+{
+  "cleanlabelId": "29"
+}
+2022-03-02 13:34:16 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:34:17 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:34:17 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '29'
+    
+2022-03-02 13:34:17 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "MngxFmlDm61dF.TmqgrTtitv3AgmFFkU"
+}
+2022-03-02 13:34:29 info: [POST] /v1/product/deleteFile
+2022-03-02 13:34:29 info: 
+{
+  "cleanlabelId": "2"
+}
+2022-03-02 13:34:29 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:34:29 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:34:29 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 13:34:29 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "qrc72gZlU_7Kq7e49us5HshPwodJqimp"
+}
+2022-03-02 13:34:33 info: [POST] /v1/product/deleteFile
+2022-03-02 13:34:33 info: 
+{
+  "cleanlabelId": ""
+}
+2022-03-02 13:34:33 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:34:33 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:34:33 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = ''
+    
+2022-03-02 13:34:33 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:34:47 info: [POST] /v1/product/deleteFile
+2022-03-02 13:34:47 info: 
+{
+  "cleanlabelId": "2"
+}
+2022-03-02 13:34:47 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:34:47 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:34:47 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 13:34:47 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "aBymEUinDoZWiqf4FRXq1A_JCq4w8peE"
+}
+2022-03-02 13:35:02 info: MybScmSvr listening on port : 3001
+2022-03-02 13:35:03 info: [POST] /v1/product/deleteFile
+2022-03-02 13:35:03 info: 
+{
+  "cleanlabelId": "2"
+}
+2022-03-02 13:35:03 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:35:03 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:35:03 info: [sql] : 
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 13:35:04 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "MS4nFysRZygtkIh7X5KTZl.bERQQz5bf"
+}
+2022-03-02 13:39:48 info: MybScmSvr listening on port : 3001
+2022-03-02 13:39:55 info: [POST] /v1/product/deleteFile
+2022-03-02 13:39:55 info: 
+{
+  "cleanlabelId": "2"
+}
+2022-03-02 13:39:55 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 13:39:55 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 13:39:55 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 13:39:55 error: Error: TypeError: Cannot read properties of null (reading 'substr')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 14:33:48 info: MybScmSvr listening on port : 3001
+2022-03-02 14:34:12 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 14:34:12 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646199252154",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 14:34:12 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 14:34:12 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 14:34:12 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 14:34:12 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 14:34:12 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302143412_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302143412_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 14:34:12 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 14:34:12 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='124'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 14:34:12 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "K8r4Ps4m5ZO6dPzHYjPR_KBysNaq0Xne",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302143412_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302143412_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302143412_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 14:58:15 info: MybScmSvr listening on port : 3001
+2022-03-02 14:58:30 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 14:58:30 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646200710051",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 14:58:30 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 14:58:30 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 14:58:30 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilekeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 14:58:30 error: Error: Error: ReferenceError: imgfilekeyPath is not defined
+    at new fileDto (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileDto.js:31:32)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:296:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:153:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:319:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:153:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:160:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 14:59:29 info: MybScmSvr listening on port : 3001
+2022-03-02 14:59:31 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 14:59:31 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646200771408",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 14:59:31 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 14:59:31 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 14:59:31 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 14:59:31 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 14:59:31 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '124'
+  
+2022-03-02 14:59:31 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 14:59:31 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302145931_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302145931_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 14:59:31 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 14:59:31 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='125'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 14:59:31 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "HHaI3ov.jX3eB9blYntCEeZuJNunC4I2"
+}
+2022-03-02 14:59:31 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "jagOysbmMzMQHgTBrgyXZpPq3lpuTycE",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302145931_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302145931_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302145931_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:00:04 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:00:04 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-2-1646200804438",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:00:04 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:00:04 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:00:04 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:00:04 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:00:04 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '125'
+  
+2022-03-02 15:00:04 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:00:04 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150004_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150004_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:00:04 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "M_lPygCqrlIKiITg.r.IzvuAgZFsl22g"
+}
+2022-03-02 15:00:04 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "_eihOBv0fHF8wTUzOOU6Zwvifr1GCb1e",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150004_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150004_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150004_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:00:05 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:00:05 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='126'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:02:03 info: MybScmSvr listening on port : 3001
+2022-03-02 15:02:07 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:02:07 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646200927333",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:02:07 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:02:07 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:02:07 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:02:07 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:02:07 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '126'
+  
+2022-03-02 15:02:07 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:02:07 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150207_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150207_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:02:07 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:02:07 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='127'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:02:08 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "X0JPTgbytElY3PXDvDJinIpC4fZQf569"
+}
+2022-03-02 15:02:08 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "BlwAULoViuu8WLnpi39T_D4XB.0H7Jlc",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150207_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150207_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150207_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:02:34 info: MybScmSvr listening on port : 3001
+2022-03-02 15:02:36 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:02:36 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646200956308",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:02:36 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:02:36 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:02:36 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:02:36 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:02:36 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '127'
+  
+2022-03-02 15:02:36 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:02:36 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150236_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150236_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:02:36 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:02:36 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='128'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:02:36 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "7kQ17XagOzpxRy1Hz9hSkmiUMQ71_MF6"
+}
+2022-03-02 15:02:36 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "RCTVXU3u2RWTbhXBsxKod1.vEhDKn_Am",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150236_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150236_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150236_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:03:22 info: MybScmSvr listening on port : 3001
+2022-03-02 15:03:24 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:03:24 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201004642",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:03:24 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:03:24 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:03:24 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:25 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:03:25 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '128'
+  
+2022-03-02 15:03:25 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:03:25 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150325_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150325_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:03:25 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:03:25 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='129'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:25 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "rzsXqmI4z6wG3MI5pCgJqNg1KD1NMpmA"
+}
+2022-03-02 15:03:25 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "u.FIecxPx7nDjl3Pksr_EDEqc1kpBSbm",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150325_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150325_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150325_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:03:45 info: MybScmSvr listening on port : 3001
+2022-03-02 15:03:46 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:03:46 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201026615",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:03:46 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:03:47 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:03:47 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:47 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:03:47 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '129'
+  
+2022-03-02 15:03:47 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:03:47 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150347_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150347_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:03:47 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:03:47 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='130'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:47 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "jQK7VZZP2pMeftcloRRZdZBGRXw7wssD"
+}
+2022-03-02 15:03:47 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "DpVmXQyrXzjBkF.JSGfHW8DX1BnO794n",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150347_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150347_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150347_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:03:54 info: MybScmSvr listening on port : 3001
+2022-03-02 15:03:58 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:03:58 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201038188",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:03:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:03:58 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:03:58 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:58 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:03:58 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '130'
+  
+2022-03-02 15:03:58 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:03:58 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150358_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150358_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:03:58 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:03:58 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='131'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:03:58 info: 
+ [s3 file delete] : 
+{
+  "DeleteMarker": true,
+  "VersionId": "GEVMDFe0TrEFEUPJDem_MgOXSaANOzoR"
+}
+2022-03-02 15:03:58 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "BDYjZJgISEkiTqpZVizLmSYmyyh0oYG_",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:07:29 info: MybScmSvr listening on port : 3001
+2022-03-02 15:07:31 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:07:31 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201251782",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:07:31 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:07:32 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:07:32 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:07:32 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:07:32 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '131'
+  
+2022-03-02 15:07:32 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:07:32 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:07:32 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:07:32 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='132'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:07:32 info: 
+ [s3 file delete] : 
+[object Object]{
+  "DeleteMarker": true,
+  "VersionId": "hjVRO41U99rCOaYd9JBbj_CHRCPbMDOn"
+}
+2022-03-02 15:07:32 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": ".vjWAKzVPcvzLMkTF1AKS2QswCoAqZ5q",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:07:48 info: MybScmSvr listening on port : 3001
+2022-03-02 15:07:49 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:07:49 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201269771",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:07:49 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:07:50 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:07:50 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:07:50 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:07:50 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '132'
+  
+2022-03-02 15:07:50 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:07:50 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:07:50 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:07:50 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='133'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:07:50 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302150732_d6c00a30fb24e599a01e42beb3e014c2.png"
+}{
+  "DeleteMarker": true,
+  "VersionId": "663kuY_m0_CMCWnRtaUwhDC0HlSmfgwg"
+}
+2022-03-02 15:07:50 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "cFmejydjm8yfezP8xQCF42O00ifec1JZ",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:08:07 info: MybScmSvr listening on port : 3001
+2022-03-02 15:08:08 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:08:08 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201288965",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:08:08 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:08:09 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:08:09 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:08:09 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:08:09 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '133'
+  
+2022-03-02 15:08:09 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:08:09 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:08:09 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:08:09 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='134'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:08:09 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302150750_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "AyORdECauBMlyL.Eh6F9LmsriMqf_NMS"
+}
+2022-03-02 15:08:09 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "WXWbFijskncfuc4eS7rtGZ5XIEQV0KUv",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:10:07 info: MybScmSvr listening on port : 3001
+2022-03-02 15:10:09 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:10:09 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201409534",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:10:09 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:10:09 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:10:09 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:09 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:10:09 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '134'
+  
+2022-03-02 15:10:09 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:10:09 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:10:09 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:10:09 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='135'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:10 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302150809_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "zo4zfUqLyq2FhCKgDdoPeCvTEU9BEZIX"
+}
+2022-03-02 15:10:10 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "GEdFm83uko_SEB1tQaU8nMJOEnGHJQ8_",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:10:13 info: MybScmSvr listening on port : 3001
+2022-03-02 15:10:14 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:10:14 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201414989",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:10:15 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:10:15 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:10:15 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:15 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:10:15 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '135'
+  
+2022-03-02 15:10:15 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:10:15 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:10:15 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:10:15 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='136'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:15 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302151009_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "lrPO51zTFeAh94esnnDfhgmlqr2_vnNb"
+}
+2022-03-02 15:10:15 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "xT.YDi8VUsgeaS0AaJ2N5HqQyA4IpBLv",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:10:26 info: MybScmSvr listening on port : 3001
+2022-03-02 15:10:27 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:10:27 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201427740",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:10:27 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:10:28 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:10:28 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:28 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:10:28 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '136'
+  
+2022-03-02 15:10:28 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:10:28 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:10:28 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:10:28 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='137'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:28 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302151015_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "WkN3ZqlPi2233HnSyJFolWBiu2gIK.Wx"
+}
+2022-03-02 15:10:28 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "qRfDULyr1VgHNEFjVdNaXsK9igUdBKp0",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 15:10:34 info: MybScmSvr listening on port : 3001
+2022-03-02 15:10:35 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 15:10:35 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646201435484",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 15:10:35 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 15:10:35 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 15:10:35 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:35 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 15:10:35 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '137'
+  
+2022-03-02 15:10:35 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 15:10:35 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 15:10:35 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 15:10:35 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='138'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 15:10:36 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302151028_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "ufU77RywWkcPHr1bMlc3P82b16FAZ31w"
+}
+2022-03-02 15:10:36 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "c3xccHwGMd00AXM3tZ0CpueVyxTdcfOj",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:00:08 info: MybScmSvr listening on port : 3001
+2022-03-02 16:00:34 info: MybScmSvr listening on port : 3001
+2022-03-02 16:00:37 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:00:37 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:00:37 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:00:37 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:00:37 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:00:37 error: Error: Error: TypeError: Cannot read properties of undefined (reading '0')
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:229:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:00:55 info: MybScmSvr listening on port : 3001
+2022-03-02 16:01:01 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:01:01 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:01:01 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:01:02 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:01:02 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:01:02 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:01:02 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '113'
+  
+2022-03-02 16:01:02 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:01:02 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302115711_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "32lb0QtJSd7a55_XZFScoyFHAgBuANk."
+}
+2022-03-02 16:02:39 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:02:39 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:02:39 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:02:39 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:02:39 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:02:39 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:02:39 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '113'
+  
+2022-03-02 16:02:39 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:02:39 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302115711_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "UPseRnfvDXdcVXK8UFhrEihyHklb96GU"
+}
+2022-03-02 16:02:57 info: MybScmSvr listening on port : 3001
+2022-03-02 16:02:58 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:02:58 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:02:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:02:58 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:02:58 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:02:59 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:02:59 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '113'
+  
+2022-03-02 16:02:59 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:236:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:236:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:249:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:02:59 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302115711_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "U6IGTafzFTNh3f0kWBVzdCebhJmskzIk"
+}
+2022-03-02 16:04:06 info: MybScmSvr listening on port : 3001
+2022-03-02 16:04:07 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:04:07 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:04:07 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:04:08 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:04:08 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:04:08 error: Error: Error: ReferenceError: con is not defined
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:229:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:249:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:04:17 info: MybScmSvr listening on port : 3001
+2022-03-02 16:04:18 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:04:18 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:04:18 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:04:18 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:04:18 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:04:18 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:04:18 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '113'
+  
+2022-03-02 16:04:18 error: Error: Error: Error: ReferenceError: result is not defined
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:106:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:109:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:04:19 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302115711_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "892lbSp1bj7bQsIIHtd2hEtfVMEoGerR"
+}
+2022-03-02 16:04:35 info: MybScmSvr listening on port : 3001
+2022-03-02 16:04:38 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:04:38 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:04:38 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:04:38 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:04:38 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:04:38 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:98:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:108:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:07:07 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:07:07 info: 
+{
+  "cleanlabelId": [
+    "26",
+    "25"
+  ]
+}
+2022-03-02 16:07:07 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:07:07 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:07:07 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:07:07 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 16:07:07 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '26'
+    
+2022-03-02 16:07:07 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:07:07 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '25'
+    
+2022-03-02 16:07:07 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 16:07:07 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '25'
+    
+2022-03-02 16:07:26 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:07:26 info: 
+{
+  "cleanlabelId": [
+    "27"
+  ]
+}
+2022-03-02 16:07:26 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:07:26 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:07:26 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '27'
+    
+2022-03-02 16:07:26 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:07:26 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '117'
+  
+2022-03-02 16:07:26 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 16:07:26 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '27'
+    
+2022-03-02 16:07:26 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302132605_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "1wIgBb_q7lVeIWvNN4NJxiH3g3Nzyp4N"
+}
+2022-03-02 16:07:53 info: [POST] /v1/product/deleteCleanLabelList
+2022-03-02 16:07:53 info: 
+{
+  "cleanlabelId": [
+    "15",
+    "30"
+  ]
+}
+2022-03-02 16:07:53 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:07:53 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:07:53 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '15'
+    
+2022-03-02 16:07:53 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 16:07:53 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '15'
+    
+2022-03-02 16:07:53 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:07:53 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '30'
+    
+2022-03-02 16:07:53 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:07:53 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '120'
+  
+2022-03-02 16:07:53 info: [EXCUTE SQL] productMapper > deleteCleanLabelList
+2022-03-02 16:07:53 info: [sql] : 
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = '30'
+    
+2022-03-02 16:07:53 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302132608_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "iQnLH4bJ0zMheap4ikH0qtn7uJHX3D7f"
+}
+2022-03-02 16:09:41 info: [POST] /v1/product/updateCleanLabelList
+2022-03-02 16:09:41 info: 
+{
+  "cleanlabelId": "2",
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646204981098",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:09:41 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:09:41 info: [EXCUTE SQL] productMapper > selectCleanLabelInfo
+2022-03-02 16:09:41 info: [sql] : 
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = '2'
+    
+2022-03-02 16:09:41 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:09:41 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '138'
+  
+2022-03-02 16:09:41 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:09:41 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302160941_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302160941_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:09:41 info: [EXCUTE SQL] productMapper > updateCleanLabelList
+2022-03-02 16:09:41 info: [sql] : 
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = '식이섬유'
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = '22'
+      , CLEANLABEL_NUTRIENT_FOOD_NM = '양상추'
+      , CLEANLABEL_NUTRIENT_UNIT = 'g'
+      , CLEANLABEL_RESULT_VAL = '1개'
+      , MIN_VAL='23'
+      , MAX_VAL='100'
+      , IMG_ID='139'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = '2'
+    
+2022-03-02 16:09:41 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/cleanlabel/20220302151035_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "txm9ZmgSknpmuRWgEYSace_kiUgJ.ynA"
+}
+2022-03-02 16:09:41 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "1ijlbwvow8tXwbWok92Qf2knG9W7WK2k",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302160941_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302160941_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302160941_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:13:58 info: [POST] /v1/product/insertProductInfo
+2022-03-02 16:13:58 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-2-1646205238161",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:13:58 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:13:58 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 16:13:58 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:13:58 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 16:13:58 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '214'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:13:58 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 16:13:58 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '214'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:13:58 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:13:58 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302161358_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302161358_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:13:58 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 16:13:58 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '214'
+        , '140'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 16:13:58 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "HWObRNadiwbuOTc5j5bFtzHqxgLBy4P.",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302161358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302161358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302161358_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:14:08 info: [POST] /v1/product/insertProductInfo
+2022-03-02 16:14:08 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-3-1646205248969",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:14:08 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:14:08 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 16:14:08 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:14:08 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 16:14:08 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '215'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:14:08 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 16:14:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '215'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 16:14:09 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:14:09 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302161409_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302161409_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:14:09 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 16:14:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '215'
+        , '141'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 16:14:09 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": ".q3Bl8jj_gE6WhKWXrm2NfyyGx.G_1LT",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302161409_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302161409_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302161409_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:30:09 info: MybScmSvr listening on port : 3001
+2022-03-02 16:30:14 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:30:14 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206214056",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:30:14 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:30:14 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:30:14 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:30:14 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:30:14 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:30:14 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:30:14 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:30:14 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:30:14 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:30:14 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:30:14 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '12'
+  
+2022-03-02 16:30:14 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:30:14 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302163014_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302163014_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:30:14 info: [EXCUTE SQL] productMapper > updateProductImgInfo
+2022-03-02 16:30:14 info: [sql] : 
+      TB_PRODUCT_IMG
+    
+2022-03-02 16:30:14 error: Error: Error: Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:146:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+{
+  "message": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1",
+  "code": "ER_PARSE_ERROR",
+  "errno": 1064,
+  "sql": "\r\n      TB_PRODUCT_IMG\r\n    ",
+  "sqlState": "42000",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1"
+}
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:175:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:30:14 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/mealplan/20220214155956_027bfd28670b94b4133bfce6e917c0ce.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "JqC_K1z_HxgHbBB_ICEBt_75mF8mIJcN"
+}
+2022-03-02 16:30:14 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "_nxO6d1XU7KsPFxQ2fsl_2XVerv46.t6",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302163014_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302163014_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302163014_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:31:25 info: MybScmSvr listening on port : 3001
+2022-03-02 16:31:27 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:31:27 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206287340",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:31:27 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:31:27 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:31:27 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:31:27 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:31:27 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:31:27 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:31:27 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:31:27 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:31:27 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:31:27 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:65:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:136:29)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:33:04 info: MybScmSvr listening on port : 3001
+2022-03-02 16:33:06 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:33:06 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206386592",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:33:06 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:33:06 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:33:06 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:33:06 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:33:06 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:33:06 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:33:06 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:33:06 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:33:06 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:33:06 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:65:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:136:29)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:34:17 info: MybScmSvr listening on port : 3001
+2022-03-02 16:34:18 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:34:18 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206458961",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:34:18 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:34:19 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:34:19 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:34:19 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:34:19 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:34:19 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:34:19 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:34:19 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:34:19 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:34:19 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:34:19 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302163419_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302163419_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:34:19 error: Error: Error: Error: Error: Parameter #{piId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:149:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:176:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:34:19 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "D5n0UgEAHnnzjIwSyWyQHZBvc8BZBYYd",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302163419_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302163419_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302163419_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:35:03 info: MybScmSvr listening on port : 3001
+2022-03-02 16:35:11 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:35:11 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206511191",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:35:11 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:35:11 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:35:11 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:35:11 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:35:11 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:35:11 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:35:11 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:35:11 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:35:11 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:35:11 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:35:11 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:35:11 info: [EXCUTE SQL] productMapper > updateProductImgInfo
+2022-03-02 16:35:11 info: [sql] : 
+      UPDATE TB_PRODUCT_IMG
+      SET 
+      PRODUCT_ID        = '1'
+      , IMG_ID          = '144'
+      , PI_FLAG         = '1'
+      , PI_CONTENTS     = NULL
+      , SORT            = NULL
+      , USE_YN          = 'Y'
+      , LST_CHG_ID      = '1'
+      , LST_CHG_DT      = SYSDATE()
+      WHERE 1=1
+      AND PI_ID = '1'
+      
+    
+2022-03-02 16:35:12 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "0BlmGzOKxsqtwzysyAHEYyCFSpWNEE58",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:37:18 info: MybScmSvr listening on port : 3001
+2022-03-02 16:37:20 info: [POST] /v1/product/updateProductInfo
+2022-03-02 16:37:20 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646206640649",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 16:37:20 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:37:20 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 16:37:20 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 16:37:20 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 16:37:20 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 16:37:20 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 16:37:20 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 16:37:20 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:37:20 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:37:21 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:37:21 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '144'
+  
+2022-03-02 16:37:21 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 16:37:21 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 16:37:21 info: [EXCUTE SQL] productMapper > updateProductImgInfo
+2022-03-02 16:37:21 info: [sql] : 
+      UPDATE TB_PRODUCT_IMG
+      SET 
+      PRODUCT_ID        = '1'
+      , IMG_ID          = '145'
+      , PI_FLAG         = '1'
+      , PI_CONTENTS     = NULL
+      , SORT            = NULL
+      , USE_YN          = 'Y'
+      , LST_CHG_ID      = '1'
+      , LST_CHG_DT      = SYSDATE()
+      WHERE 1=1
+      AND PI_ID = '1'
+      
+    
+2022-03-02 16:37:21 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/product/20220302163511_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "13NVBYib88V0OBfdOrnkYVgKeX75oTfs"
+}
+2022-03-02 16:37:21 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "_7pONT_Hv02_3wiBf_O8hgJO2zgnfcxM",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 16:42:02 info: MybScmSvr listening on port : 3001
+2022-03-02 16:42:05 info: [POST] /v1/product/deleteProductInfo
+2022-03-02 16:42:05 info: 
+{
+  "productId": [
+    "99",
+    "98"
+  ]
+}
+2022-03-02 16:42:05 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:42:05 error: Error: Error: Error: Error: Parameter #{piFlag} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:187:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:102:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:42:43 info: MybScmSvr listening on port : 3001
+2022-03-02 16:42:45 info: [POST] /v1/product/deleteProductInfo
+2022-03-02 16:42:45 info: 
+{
+  "productId": [
+    "99",
+    "98"
+  ]
+}
+2022-03-02 16:42:45 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:42:45 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:42:45 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '99'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:42:45 error: Error: Error: TypeError: Cannot read properties of undefined (reading 'imgId')
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:102:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:44:12 info: MybScmSvr listening on port : 3001
+2022-03-02 16:44:13 info: [POST] /v1/product/deleteProductInfo
+2022-03-02 16:44:13 info: 
+{
+  "productId": [
+    "99",
+    "98"
+  ]
+}
+2022-03-02 16:44:14 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:44:14 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:44:14 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '99'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:44:14 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 16:44:14 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '99'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '99'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '99'
+      ;
+    
+2022-03-02 16:44:14 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:44:14 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '98'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:44:14 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 16:44:14 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '98'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '98'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '98'
+      ;
+    
+2022-03-02 16:45:10 info: [POST] /v1/product/deleteProductInfo
+2022-03-02 16:45:10 info: 
+{
+  "productId": [
+    "200",
+    "201"
+  ]
+}
+2022-03-02 16:45:10 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 16:45:10 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:45:10 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '200'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:45:10 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:45:10 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '97'
+  
+2022-03-02 16:45:10 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 16:45:10 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+    
+2022-03-02 16:45:10 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 16:45:10 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '201'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 16:45:10 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 16:45:10 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '98'
+  
+2022-03-02 16:45:10 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 16:45:10 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+    
+2022-03-02 16:45:10 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/product/20220228170359_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "dVXU5VqEMWSMsqkyQwgi0e8xSc1fVYYN"
+}
+2022-03-02 16:45:10 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/product/20220228170431_b5d55f62c85786ddeff4191205de51cc.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "z37vv6CJCY4zfDi31JgVt_hZcR2vb1k9"
+}
+2022-03-02 17:09:47 info: MybScmSvr listening on port : 3001
+2022-03-02 17:10:01 info: [POST] /v1/menu/insertMenuInfo
+2022-03-02 17:10:01 info: 
+{
+  "menuNm": "테스트 메뉴",
+  "menuDept": "3",
+  "parrentId": "17",
+  "menuPath": "/",
+  "menuIcon": "",
+  "useYn": "Y"
+}
+2022-03-02 17:10:01 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:10:02 info: [EXCUTE SQL] menuMapper > insertMenuInfo
+2022-03-02 17:10:02 info: [sql] : 
+    INSERT INTO TB_MENU
+    (
+      MENU_NM
+      , MENU_DEPT
+      , PARRENT_ID
+      , MENU_PATH
+      , MENU_ICON
+      , USE_YN
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+    )
+    VALUES(
+      '테스트 메뉴'
+      , '3'
+      , '17'
+      , '/'
+      , ''
+      , UPPER('Y')
+      , '1'
+      , SYSDATE() 
+      , '1'
+      , SYSDATE() 
+    )
+  
+2022-03-02 17:10:37 info: [POST] /v1/menu/deleteMenuInfo
+2022-03-02 17:10:37 info: 
+{
+  "menuId": "50"
+}
+2022-03-02 17:10:37 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:10:37 info: [EXCUTE SQL] menuMapper > deleteMenuInfo
+2022-03-02 17:10:37 info: [sql] : 
+    DELETE FROM TB_MENU
+    WHERE MENU_ID = '50'
+  
+2022-03-02 17:10:50 info: MybScmSvr listening on port : 3001
+2022-03-02 17:10:52 info: [POST] /v1/menu/deleteMenuInfo
+2022-03-02 17:10:52 info: 
+{
+  "menuId": "50"
+}
+2022-03-02 17:10:52 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:10:52 info: [EXCUTE SQL] menuMapper > deleteMenuInfo
+2022-03-02 17:10:52 info: [sql] : 
+    DELETE FROM TB_MENU
+    WHERE MENU_ID = '50'
+  
+2022-03-02 17:11:14 info: MybScmSvr listening on port : 3001
+2022-03-02 17:11:18 info: [POST] /v1/menu/updateMenuInfo
+2022-03-02 17:11:18 info: 
+{
+  "menuId": "17",
+  "menuNm": "테스트 메뉴",
+  "menuDept": "3",
+  "parrentId": "17",
+  "menuPath": "/",
+  "menuIcon": "",
+  "useYn": "Y"
+}
+2022-03-02 17:11:18 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:11:19 info: [EXCUTE SQL] menuMapper > updateMenuInfo
+2022-03-02 17:11:19 info: [sql] : 
+    UPDATE TB_MENU
+    SET
+      MENU_NM = '테스트 메뉴'
+      , MENU_DEPT = '3'
+      , PARRENT_ID = '17'
+      , MENU_PATH = '/'
+      , MENU_ICON = ''
+      , USE_YN = UPPER('Y')
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE() 
+    WHERE
+      MENU_ID = '17'
+  
+2022-03-02 17:11:47 info: MybScmSvr listening on port : 3001
+2022-03-02 17:11:48 info: [POST] /v1/partnerCenter/insertBrandInfo
+2022-03-02 17:11:48 info: 
+{
+  "bizId": "1",
+  "brandNm": "마이비밀"
+}
+2022-03-02 17:11:48 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:11:48 info: [EXCUTE SQL] partnerCenterMapper > insertBrandInfo
+2022-03-02 17:11:48 info: [sql] : 
+      INSERT INTO TB_BIZ_BRAND
+      (
+        BIZ_ID
+        , BRAND_NM
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES
+      (
+        '1'
+        , '마이비밀'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 17:12:04 info: MybScmSvr listening on port : 3001
+2022-03-02 17:12:08 info: [POST] /v1/product/insertProductInfo
+2022-03-02 17:12:08 info: 
+{
+  "productBrdNm": "마이비2",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646208728851",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 17:12:08 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:12:09 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-03-02 17:12:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 17:12:09 info: [EXCUTE SQL] productMapper > insertProductCategoryInfo
+2022-03-02 17:12:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '216'
+        , '1'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 17:12:09 info: [EXCUTE SQL] productMapper > insertProductNutrientList
+2022-03-02 17:12:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        '216'
+        , '단백질'
+        , 'g'
+        , '100'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 17:12:09 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 17:12:09 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302171209_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302171209_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 17:12:09 info: [EXCUTE SQL] productMapper > insertProductImgInfo
+2022-03-02 17:12:09 info: [sql] : 
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '216'
+        , '146'
+        , '1'
+        , NULL
+        , NULL
+        , 'Y'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      ) 
+    
+2022-03-02 17:12:09 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "cHKTaESuEAt07cfy1McbHe9hS9UtIppS",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302171209_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302171209_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302171209_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 17:12:20 info: [POST] /v1/product/updateProductInfo
+2022-03-02 17:12:20 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-2-1646208740977",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 17:12:20 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:12:20 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 17:12:20 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 17:12:21 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 17:12:21 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 17:12:21 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 17:12:21 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 17:12:21 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 17:12:21 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 17:12:21 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 17:12:21 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '145'
+  
+2022-03-02 17:12:21 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 17:12:21 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 17:12:21 info: [EXCUTE SQL] productMapper > updateProductImgInfo
+2022-03-02 17:12:21 info: [sql] : 
+      UPDATE TB_PRODUCT_IMG
+      SET 
+      PRODUCT_ID        = '1'
+      , IMG_ID          = '147'
+      , PI_FLAG         = '1'
+      , PI_CONTENTS     = NULL
+      , SORT            = NULL
+      , USE_YN          = 'Y'
+      , LST_CHG_ID      = '1'
+      , LST_CHG_DT      = SYSDATE()
+      WHERE 1=1
+      AND PI_ID = '1'
+      
+    
+2022-03-02 17:12:21 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/product/20220302163721_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "9uWoCLWXru6C481neAehLfaIEGj5A7kg"
+}
+2022-03-02 17:12:21 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "tieCs0JJ7f84ztUqzLH66cI64dyDDJv_",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 17:12:24 info: MybScmSvr listening on port : 3001
+2022-03-02 17:12:25 info: [POST] /v1/product/updateProductInfo
+2022-03-02 17:12:25 info: 
+{
+  "productId": "1",
+  "productBrdNm": "마이비23",
+  "productNm": "도시락2",
+  "productPrice": "16000",
+  "productDiscRate": "15",
+  "productExplain": "신선하고 맛있는 식품입니다.",
+  "categoryId": "1",
+  "useYn": "Y",
+  "openYn": "N",
+  "productNutrientList": [
+    {
+      "pnId": "1",
+      "nutrientNm": "단백질",
+      "nutrientUnit": "g",
+      "nutrientVal": "100"
+    }
+  ]
+}
+{
+  "productThumbnailImgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646208745532",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 17:12:25 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:12:25 info: [EXCUTE SQL] productMapper > updateProductInfo
+2022-03-02 17:12:25 info: [sql] : 
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = '마이비23'
+        , PRODUCT_NM = '도시락2'
+        , PRODUCT_PRICE = '16000'
+        , PRODUCT_DISC_RATE = '15'
+        , PRODUCT_EXPLAIN = '신선하고 맛있는 식품입니다.'
+
+        , USE_YN = 'Y'
+        , OPEN_YN = 'N'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = '1';
+    
+2022-03-02 17:12:25 info: [EXCUTE SQL] productMapper > updateProductCategoryInfo
+2022-03-02 17:12:25 info: [sql] : 
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = '1'
+        , LST_CHG_ID = '1'
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+    
+2022-03-02 17:12:25 info: [EXCUTE SQL] productMapper > updateProductNutrientList
+2022-03-02 17:12:25 info: [sql] : 
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL = '100'
+      , LST_CHG_ID = '1'
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      AND PN_ID = '1'
+
+    
+2022-03-02 17:12:25 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 17:12:25 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '1'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 17:12:25 info: [EXCUTE SQL] fileMapper > deleteFileInfo
+2022-03-02 17:12:25 info: [sql] : 
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = '147'
+  
+2022-03-02 17:12:25 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 17:12:25 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220302171225_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302171225_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 17:12:25 info: [EXCUTE SQL] productMapper > updateProductImgInfo
+2022-03-02 17:12:25 info: [sql] : 
+      UPDATE TB_PRODUCT_IMG
+      SET 
+      PRODUCT_ID        = '1'
+      , IMG_ID          = '148'
+      , PI_FLAG         = '1'
+      , PI_CONTENTS     = NULL
+      , SORT            = NULL
+      , USE_YN          = 'Y'
+      , LST_CHG_ID      = '1'
+      , LST_CHG_DT      = SYSDATE()
+      WHERE 1=1
+      AND PI_ID = '1'
+      
+    
+2022-03-02 17:12:26 info: 
+ [s3 file delete] : 
+{
+  "Bucket": "mybimgbucket",
+  "Key": "scm/product/20220302171221_d6c00a30fb24e599a01e42beb3e014c2.png"
+}
+{
+  "DeleteMarker": true,
+  "VersionId": "7KrRrbezM_M6VSDnMWTz8DpPu281EuG7"
+}
+2022-03-02 17:12:26 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "uCJaySA.RvddfPGChDIqQZei.BOu23UD",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/product/20220302171225_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/product/20220302171225_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/product/20220302171225_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}
+2022-03-02 17:12:35 info: MybScmSvr listening on port : 3001
+2022-03-02 17:12:38 info: [POST] /v1/product/deleteProductInfo
+2022-03-02 17:12:38 info: 
+{
+  "productId": [
+    "200",
+    "201"
+  ]
+}
+2022-03-02 17:12:38 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:12:38 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 17:12:38 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '200'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 17:12:38 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 17:12:38 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '200'
+      ;
+    
+2022-03-02 17:12:38 info: [EXCUTE SQL] productMapper > selectProductImgInfo
+2022-03-02 17:12:38 info: [sql] : 
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = '201'
+      
+      AND A.PI_FLAG = '1'
+       
+2022-03-02 17:12:38 info: [EXCUTE SQL] productMapper > deleteProductInfo
+2022-03-02 17:12:38 info: [sql] : 
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = '201'
+      ;
+    
+2022-03-02 17:12:59 info: MybScmSvr listening on port : 3001
+2022-03-02 17:13:01 info: [POST] /v1/product/insertCleanLabelList
+2022-03-02 17:13:01 info: 
+{
+  "cleanlabelNutrientNm": "식이섬유",
+  "cleanlabelNutrientStandardVal": "22",
+  "cleanlabelNutrientFoodNm": "양상추",
+  "cleanlabelNutrientUnit": "g",
+  "cleanlabelResultVal": "1개",
+  "minVal": "23",
+  "maxVal": "100"
+}
+{
+  "imgFile": {
+    "name": "��\u0015 \u0004|.png",
+    "data": {
+      "type": "Buffer",
+      "data": []
+    },
+    "size": 24985,
+    "encoding": "7bit",
+    "tempFilePath": "..\\imgTemp\\tmp-1-1646208781033",
+    "truncated": false,
+    "mimetype": "image/png",
+    "md5": "d6c00a30fb24e599a01e42beb3e014c2"
+  }
+}
+2022-03-02 17:13:01 info: 
+>> user : 
+{
+  "accId": 1,
+  "accUserId": "admin",
+  "accMngNm": "차승찬"
+}
+2022-03-02 17:13:01 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-03-02 17:13:01 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/cleanlabel/20220302171301_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '20220302171301_d6c00a30fb24e599a01e42beb3e014c2.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-03-02 17:13:01 info: [EXCUTE SQL] productMapper > insertCleanLabelList
+2022-03-02 17:13:01 info: [sql] : 
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         '식이섬유'
+        , '22'
+        , '양상추'
+        , 'g'
+        , '1개'
+        , '23'
+        , '100'
+        , '149'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-03-02 17:13:01 info: 
+ [s3 file upload] : 
+{
+  "ETag": "\"d6c00a30fb24e599a01e42beb3e014c2\"",
+  "VersionId": "FsfVE9I1NQ9oas3VehoyjLqFeLeYtf_k",
+  "Location": "https://mybimgbucket.s3.ap-northeast-2.amazonaws.com/scm/cleanlabel/20220302171301_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "key": "scm/cleanlabel/20220302171301_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Key": "scm/cleanlabel/20220302171301_d6c00a30fb24e599a01e42beb3e014c2.png",
+  "Bucket": "mybimgbucket"
+}

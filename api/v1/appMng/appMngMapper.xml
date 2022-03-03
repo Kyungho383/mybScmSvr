@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="appMngMapper">
+    <sql id="selectAppUserListInc">
+      SELECT A.* 
+        , (SELECT Z.IMG_PATH FROM MYB_DB_APP_REAL.TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS IMG_PATH
+      FROM MYB_DB_APP_REAL.TB_USER A
+    </sql>
+    <select id="selectAppUserList">
+      WITH RST AS (
+      SELECT ROW_NUMBER() OVER() NO
+      , T.*
+      FROM (
+        <include refid="selectAppUserListInc"/>
+      ) AS T
+    )
+    
+    SELECT * FROM RST T1
+    WHERE 1=1
+    LIMIT ${startNo}, ${pageTerm}
+    </select>
+     
+</mapper>

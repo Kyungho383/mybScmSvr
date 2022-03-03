@@ -1,0 +1,969 @@
+2022-02-23 09:14:27 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:14:33 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:15:05 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:15:48 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:16:11 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:17:09 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:17:48 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:19:28 error: Error: TypeError: Cannot read properties of undefined (reading 'length')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:20:19 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:20:35 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:25:26 error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+2022-02-23 09:25:26 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:25:43 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:25:43 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:26:04 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:26:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:27:21 error: {"message":"Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist","code":"ER_NO_SUCH_TABLE","errno":1146,"sql":"\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ","sqlState":"42S02","sqlMessage":"Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"}
+2022-02-23 09:27:21 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:27:51 error: {
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:27:51 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:28:24 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:28:25 error: {
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:28:25 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:28:38 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:28:38 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:30:57 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:30:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:31:45 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:06 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:32:38 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:38 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:51:46 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 10:51:46 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:58:21 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:58:42 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:59:39 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:00:09 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:00:51 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:02:47 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:03:18 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:15:20 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:15:35 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:16:10 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:17:07 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:17:35 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:18:07 error: {}
+2022-02-23 11:18:07 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:95:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:18:22 error: {}
+2022-02-23 11:18:32 error: {}
+2022-02-23 11:18:32 error: {}
+2022-02-23 11:19:01 error: {}
+2022-02-23 11:19:01 error: {}
+2022-02-23 11:19:40 error: {}
+2022-02-23 11:19:40 error: {}
+2022-02-23 11:19:57 error: {}
+2022-02-23 11:20:43 error: authService.insertUserLeoginHist is not a function
+2022-02-23 11:21:31 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:21:31 error: {}
+2022-02-23 11:22:00 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:22:00 error: {}
+2022-02-23 11:22:29 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:22:29 error: {}
+2022-02-23 11:23:05 error: {}
+2022-02-23 11:23:43 error: "Error: TypeError: authService.insertUserLeoginHist is not a function\n    at C:\\myb\\source\\backEnd\\mybScmSvr\\api\\v1\\auth\\authController.js:56:46\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at C:\\myb\\source\\backEnd\\mybScmSvr\\api\\v1\\auth\\authController.js:96:14\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+2022-02-23 11:23:55 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:96:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:29:10 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:29:19 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:30:08 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:30:32 error: Error: Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectLoginChk (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:51:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:34:19
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT COUNT(*) CNT FROM TB_ACC3OUNT A\r\n        WHERE 1=1\r\n        AND A.ACC_USER_ID = concat('admin','y')\r\n        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist"
+}
+2022-02-23 11:30:32 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist
+    at Object.selectLoginChk (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:57:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:34:19
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:32:07 error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:32:35 error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:33:16 error: Error: Error: 해당 계정 없음
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:34:52 error: Error: Error: not find Account
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:35:57 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:37:36 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:28
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:37:36 error: Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:38:29 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:38:29 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:38:58 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:38:58 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:84:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:12 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:39:12 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:34 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:39:34 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:39 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:40:04 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:40:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:40:15 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:43:39 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGI3N_HIST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist"
+}
+2022-02-23 11:43:39 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:47:11 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGI3N_HIST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist"
+}
+2022-02-23 11:47:11 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:50:23 error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:51:09 error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:81:18
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:51:41 error: Error: TypeError: Cannot set properties of undefined (setting 'koko')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:52:23 error: Error: TypeError: Cannot set properties of undefined (setting 'koko')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:53:56 error: Error: ReferenceError: undefiend is not defined
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:82:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:06:32 error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_C3ODE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist"
+}
+2022-02-23 13:06:32 error: Error: Error
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:07:29 error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_C3ODE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist"
+}
+2022-02-23 13:07:29 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:09:01 error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+2022-02-23 13:09:01 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:10:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:10:51 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:11:07 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:11:35 error: Error: Error: Error
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:12:18 error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+2022-02-23 13:12:18 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:10 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:10 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:23:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:27 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:27 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:45 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:45 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:15:46 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:15:46 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:16:57 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:16:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:22 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:40 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:58 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:18:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:18:31 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:20 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:20:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:24:19 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:02 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:36 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:52 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 18:00:33 error: Error: Error: ReferenceError: fileService is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:47:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:54:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 18:00:44 error: Error: Error: ReferenceError: fileService is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:47:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:54:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

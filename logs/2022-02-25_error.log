@@ -1,0 +1,252 @@
+2022-02-25 11:08:38 error: Error: Error: Can't add new command when connection is in closed state
+    at PromisePoolConnection.rollback (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:153:22)
+    at Object.selectLoginChk (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:32:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:18:19
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:66:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:25:48 error: Error: Error: Error: Error: Parameter #{brandNm} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:53:17
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:53:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:26:09 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:40:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:40:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:45:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:26:38 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:54:48 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:56:33 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:57:04 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:57:38 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+{}
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 13:58:23 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 14:00:05 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 14:00:16 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 14:01:02 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:49:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at Object.insertBrandInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:53:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:41:7
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:46:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:22:00 error: Error: Error: Error: Error: Parameter #{categoryId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:40:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:68:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:23:53 error: Error: Error: ReferenceError: i is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:68:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:24:09 error: Error: Error: ReferenceError: i is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:45:84)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:68:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:24:34 error: Error: Error: Error: Error: Parameter #{piContents} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:48:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:48:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:68:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:25:42 error: Error: Error: Error: Error: Parameter #{sort} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:50:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:50:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:70:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:30:00 error: Error: Error: Error: Error: Subquery returns more than 1 row
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:20:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+{
+  "message": "Subquery returns more than 1 row",
+  "code": "ER_SUBQUERY_NO_1_ROW",
+  "errno": 1242,
+  "sql": "\r\n      WITH RST AS (\r\n      SELECT ROW_NUMBER() OVER() NO\r\n      , T.*\r\n      FROM (\r\n        \r\n      SELECT A.*\r\n      \r\n      , (SELECT Z.IMG_ID FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID AND PI_FLAG = 1) AS productThumbnailImgFileId\r\n      , (SELECT FN_GET_IMG_PATH(Z.IMG_ID) FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID AND PI_FLAG = 1 ) AS productThumbnailImgFilePath\r\n      \r\n        FROM TB_PRODUCT A\r\n\r\n        WHERE 1=1\r\n        \r\n          AND PRODUCT_BRD_NM LIKE CONCAT('%','마이비','%')\r\n         \r\n          AND PRODUCT_NM LIKE CONCAT('%','도시락','%')\r\n          \r\n            AND DATE(FST_REG_DT) BETWEEN '2021-12-16' AND '2022-12-30'\r\n            \r\n      ) AS T\r\n    )\r\n    \r\n    SELECT * FROM RST T1\r\n    WHERE 1=1\r\n    LIMIT 0, 12\r\n    ",
+  "sqlState": "21000",
+  "sqlMessage": "Subquery returns more than 1 row"
+}
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:27:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:23:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:34:00 error: Error: Error: Error: Error: Column 'FST_REG_DT' in where clause is ambiguous
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:20:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+{
+  "message": "Column 'FST_REG_DT' in where clause is ambiguous",
+  "code": "ER_NON_UNIQ_ERROR",
+  "errno": 1052,
+  "sql": "\r\n      WITH RST AS (\r\n      SELECT ROW_NUMBER() OVER() NO\r\n      , T.*\r\n      FROM (\r\n        \r\n      SELECT \r\n        A.*\r\n        , B.IMG_ID AS productThumbnailImgFileId\r\n        , FN_GET_IMG_PATH(B.IMG_ID) AS productThumbnailImgFilePath\r\n      FROM TB_PRODUCT A\r\n        LEFT OUTER JOIN TB_PRODUCT_IMG B ON A.PRODUCT_ID = B.PRODUCT_ID AND B.PI_FLAG = 1 AND B.USE_YN = 'Y'\r\n        WHERE 1=1\r\n        \r\n          AND PRODUCT_BRD_NM LIKE CONCAT('%','마이비','%')\r\n         \r\n          AND PRODUCT_NM LIKE CONCAT('%','도시락','%')\r\n          \r\n            AND DATE(FST_REG_DT) BETWEEN '2021-12-16' AND '2022-12-30'\r\n            \r\n      ) AS T\r\n    )\r\n    \r\n    SELECT * FROM RST T1\r\n    WHERE 1=1\r\n    LIMIT 0, 12\r\n    ",
+  "sqlState": "23000",
+  "sqlMessage": "Column 'FST_REG_DT' in where clause is ambiguous"
+}
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:27:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:23:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-25 17:34:18 error: Error: Error: Error: Error: Column 'FST_REG_DT' in where clause is ambiguous
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:20:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+{
+  "message": "Column 'FST_REG_DT' in where clause is ambiguous",
+  "code": "ER_NON_UNIQ_ERROR",
+  "errno": 1052,
+  "sql": "\r\n      WITH RST AS (\r\n      SELECT ROW_NUMBER() OVER() NO\r\n      , T.*\r\n      FROM (\r\n        \r\n      SELECT \r\n        A.*\r\n        , B.IMG_ID AS productThumbnailImgFileId\r\n        , FN_GET_IMG_PATH(B.IMG_ID) AS productThumbnailImgFilePath\r\n      FROM TB_PRODUCT A\r\n        LEFT OUTER JOIN TB_PRODUCT_IMG B ON A.PRODUCT_ID = B.PRODUCT_ID AND B.PI_FLAG = 1 AND B.USE_YN = 'Y'\r\n        WHERE 1=1\r\n        \r\n          AND PRODUCT_BRD_NM LIKE CONCAT('%','마이비','%')\r\n         \r\n          AND PRODUCT_NM LIKE CONCAT('%','도시락','%')\r\n          \r\n            AND DATE(FST_REG_DT) BETWEEN '2021-12-16' AND '2022-12-30'\r\n            \r\n      ) AS T\r\n    )\r\n    \r\n    SELECT * FROM RST T1\r\n    WHERE 1=1\r\n    LIMIT 0, 12\r\n    ",
+  "sqlState": "23000",
+  "sqlMessage": "Column 'FST_REG_DT' in where clause is ambiguous"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:51:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:20:21)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+    at Object.selectProductList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:27:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:15:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:23:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

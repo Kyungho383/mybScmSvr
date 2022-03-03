@@ -1,0 +1,287 @@
+2022-03-02 10:39:23 error: Error: Error: Error: Error: Parameter #{cleanlabelNutrientNm} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:252:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:252:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:258:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:42:58 error: Error: Error: Error: Error: Parameter #{cleanlabelNutrientNm} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:270:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:270:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:276:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:43:32 error: Error: Error: Error: Error: Query was empty
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+{
+  "message": "Query was empty",
+  "code": "ER_EMPTY_QUERY",
+  "errno": 1065,
+  "sql": " ",
+  "sqlState": "42000",
+  "sqlMessage": "Query was empty"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:51:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:225:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 10:43:59 error: Error: Error: Error: Error: Query was empty
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+{
+  "message": "Query was empty",
+  "code": "ER_EMPTY_QUERY",
+  "errno": 1065,
+  "sql": " ",
+  "sqlState": "42000",
+  "sqlMessage": "Query was empty"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:51:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:21)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:233:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:167:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:174:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:05:28 error: Error: Error: Error: Error: Parameter #{productExplain} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:46:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:46:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:88:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:21:09 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:217:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:21:33 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:218:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:34:03 error: Error: ReferenceError: str is not defined
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:34:33 error: Error: TypeError: Cannot read properties of undefined (reading 'imgFilePath')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 13:39:55 error: Error: TypeError: Cannot read properties of null (reading 'substr')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:212:40
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:220:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 14:58:30 error: Error: Error: ReferenceError: imgfilekeyPath is not defined
+    at new fileDto (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileDto.js:31:32)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:296:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:153:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:319:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:153:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:160:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:00:37 error: Error: Error: TypeError: Cannot read properties of undefined (reading '0')
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:229:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:01:02 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:02:39 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:02:59 error: Error: Error: Error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at Object.s3FileUpload (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:53:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:73:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:236:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:87:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:236:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:249:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:04:08 error: Error: Error: ReferenceError: con is not defined
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:229:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:249:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:04:18 error: Error: Error: Error: ReferenceError: result is not defined
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:106:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:109:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:04:38 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:98:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.fileDelete (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:108:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:235:13)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at Object.deleteCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:248:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:168:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:175:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:30:14 error: Error: Error: Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:146:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+{
+  "message": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1",
+  "code": "ER_PARSE_ERROR",
+  "errno": 1064,
+  "sql": "\r\n      TB_PRODUCT_IMG\r\n    ",
+  "sqlState": "42000",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TB_PRODUCT_IMG' at line 1"
+}
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:175:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:31:27 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:65:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:136:29)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:33:06 error: Error: Error: Error: Error: Error: MissingRequiredParameter: Missing required key 'Key' in params
+    at Object.s3FileDelete (C:\myb\source\backEnd\mybScmSvr\api\@config\awsS3.js:76:15)
+    at Object.fileChange (C:\myb\source\backEnd\mybScmSvr\api\v1\file\fileService.js:65:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:136:29)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:34:19 error: Error: Error: Error: Error: Parameter #{piId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:149:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:176:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:76:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:83:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:42:05 error: Error: Error: Error: Error: Parameter #{piFlag} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:187:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:102:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-03-02 16:42:45 error: Error: Error: TypeError: Cannot read properties of undefined (reading 'imgId')
+    at Object.deleteProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:219:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:95:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:102:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

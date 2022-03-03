@@ -1,0 +1,290 @@
+2022-02-28 10:34:49 error: Error: Error: ReferenceError: NULL is not defined
+    at Object.selectProductDtlInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:167:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:122:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:126:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 14:57:58 error: Error: Error: ReferenceError: array is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:52:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:86:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 14:58:42 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:86:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 15:10:58 error: Error: Error: Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+        CATEGORY_ID
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+   ' at line 2
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:97:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+{
+  "message": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(\r\n        CATEGORY_ID\r\n        , LST_CHG_ID\r\n        , LST_CHG_DT\r\n      )\r\n   ' at line 2",
+  "code": "ER_PARSE_ERROR",
+  "errno": 1064,
+  "sql": "\r\n      UPDATE TB_PRODUCT_CATEGORY\r\n      (\r\n        CATEGORY_ID\r\n        , LST_CHG_ID\r\n        , LST_CHG_DT\r\n      )\r\n      VALUES(\r\n        '1'\r\n        , '1'\r\n        , SYSDATE()\r\n      )\r\n      WHERE 1=1\r\n      AND PRODUCT_ID = '99'\r\n    ",
+  "sqlState": "42000",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(\r\n        CATEGORY_ID\r\n        , LST_CHG_ID\r\n        , LST_CHG_DT\r\n      )\r\n   ' at line 2"
+}
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:127:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:82:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 15:18:21 error: Error: Error: Error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', NUTRIENT_NM = '단백질'
+      , NUTRIENT_UNIT = 'g'
+      , NUTRIENT_VAL =' at line 3
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:105:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+{
+  "message": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', NUTRIENT_NM = '단백질'\r\n      , NUTRIENT_UNIT = 'g'\r\n      , NUTRIENT_VAL =' at line 3",
+  "code": "ER_PARSE_ERROR",
+  "errno": 1064,
+  "sql": "\r\n      UPDATE TB_PRODUCT_NUTRIENT\r\n      SET \r\n      , NUTRIENT_NM = '단백질'\r\n      , NUTRIENT_UNIT = 'g'\r\n      , NUTRIENT_VAL = '100'\r\n      , LST_CHG_ID = '1'\r\n      , LST_CHG_DT = SYSDATE()\r\n      WHERE 1=1\r\n      AND PRODUCT_ID = '99'\r\n      AND PN_ID = '1'\r\n\r\n    ",
+  "sqlState": "42000",
+  "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', NUTRIENT_NM = '단백질'\r\n      , NUTRIENT_UNIT = 'g'\r\n      , NUTRIENT_VAL =' at line 3"
+}
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:129:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:82:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 16:58:46 error: Error: Error: TypeError: Cannot convert object to primitive value
+    at JSON.parse (<anonymous>)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:51:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:89:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 16:58:55 error: Error: Error: TypeError: Cannot convert object to primitive value
+    at JSON.parse (<anonymous>)
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:51:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:89:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:51:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:58:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 17:32:11 error: Error: Error: Error: Error: Unknown column 'CLEANLABEL_NM' in 'where clause'
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:162:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:111:17
+{
+  "message": "Unknown column 'CLEANLABEL_NM' in 'where clause'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "errno": 1054,
+  "sql": "\r\n      SELECT * FROM TB_CLEANLABEL\r\n      WHERE 1=1\r\n      \r\n        AND CLEANLABEL_NM LIKE CONCAT('%','1','%')\r\n       \r\n        AND USE_YN = 'Y'\r\n       \r\n        AND OPEN_YN = 'Y'\r\n       ",
+  "sqlState": "42S22",
+  "sqlMessage": "Unknown column 'CLEANLABEL_NM' in 'where clause'"
+}
+    at Object.selectCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:167:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:111:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:118:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 17:42:39 error: TypeError: Cannot convert object to primitive value
+    at fnDefaultInfo (C:\myb\source\backEnd\mybScmSvr\api\server.js:32:63)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:323:13)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\myb\source\backEnd\mybScmSvr\node_modules\cors\lib\index.js:188:7)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\myb\source\backEnd\mybScmSvr\node_modules\cors\lib\index.js:214:15)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\cors\lib\index.js:219:13
+2022-02-28 17:44:27 error: Error: Error: Error: Error: Parameter #{productId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:98:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+    at Object.updateProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:129:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:75:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:82:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 17:51:04 error: Error: Error: Error: Error: Unknown column 'CLEANLABEL_NM' in 'where clause'
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:161:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:111:17
+{
+  "message": "Unknown column 'CLEANLABEL_NM' in 'where clause'",
+  "code": "ER_BAD_FIELD_ERROR",
+  "errno": 1054,
+  "sql": "\r\n      SELECT * FROM TB_CLEANLABEL\r\n      WHERE 1=1\r\n      \r\n        AND CLEANLABEL_NM LIKE CONCAT('%','1','%')\r\n       \r\n        AND USE_YN = 'Y'\r\n       \r\n        AND OPEN_YN = 'Y'\r\n       ",
+  "sqlState": "42S22",
+  "sqlMessage": "Unknown column 'CLEANLABEL_NM' in 'where clause'"
+}
+    at Object.selectCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:166:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:111:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:118:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 17:59:13 error: Error: TypeError: productService.insertCleanLabelList is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:38
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-28 17:59:42 error: Error: Error: Error: Error: SQL ID [insertCleanLabelList] not exists
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:88:57)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 17:59:49 error: Error: Error: Error: Error: SQL ID [insertCleanLabelList] not exists
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:88:57)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 18:00:16 error: Error: Error: Error: Error: SQL ID [insertCleanLabelList] not exists
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:88:57)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 18:00:23 error: Error: Error: Error: Error: SQL ID [insertCleanLabelList] not exists
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:88:57)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 18:00:44 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:218:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at Object.insertCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:223:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:127:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:134:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 18:06:14 error: Error: TypeError: productService.updateCleanLabelList is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:38
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:149:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-28 18:06:47 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:232:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:232:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:237:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:149:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-28 18:07:21 error: Error: Error: Error: Error: Parameter #{accId} is not converted.
+    at MybatisMapper.getStatement (C:\myb\source\backEnd\mybScmSvr\node_modules\mybatis-mapper\index.js:103:15)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:65)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:232:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:23)
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:232:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at Object.updateCleanLabelList (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:237:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:142:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:149:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

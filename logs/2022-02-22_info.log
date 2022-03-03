@@ -1,0 +1,525 @@
+2022-02-22 16:36:26 info: MybAppSvr listening on port : 3001
+2022-02-22 16:38:27 info: MybScmSvr listening on port : 3001
+2022-02-22 16:50:13 info: [POST] /v1/menu/selectMenuList
+2022-02-22 16:50:14 info: [EXCUTE SQL] newsFeedMapper > selectTopMenuList
+2022-02-22 16:50:14 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:50:14 info: [EXCUTE SQL] newsFeedMapper > selectChildMenuList
+2022-02-22 16:50:14 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:50:14 info: [EXCUTE SQL] newsFeedMapper > selectChildMenuList
+2022-02-22 16:50:14 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:50:38 info: MybScmSvr listening on port : 3001
+2022-02-22 16:50:41 info: [POST] /v1/menu/selectMenuList
+2022-02-22 16:50:41 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-22 16:50:41 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:50:41 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-22 16:50:41 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:50:41 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-22 16:50:41 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:53:56 info: [POST] /v1/menu/selectMenuList
+2022-02-22 16:53:56 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-22 16:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:53:56 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-22 16:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 16:53:56 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-22 16:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-22 18:13:16 info: MybScmSvr listening on port : 3001
+2022-02-22 18:14:29 info: MybScmSvr listening on port : 3001
+2022-02-22 18:14:30 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:14:30 error: Error: TypeError: partnerCenterService.insertPartnerAccountInfo is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-22 18:15:04 info: MybScmSvr listening on port : 3001
+2022-02-22 18:15:05 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:15:05 error: Error: TypeError: partnerCenterService.insertPartnerAccountInfo is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-22 18:15:29 info: MybScmSvr listening on port : 3001
+2022-02-22 18:15:31 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:15:31 info: [EXCUTE SQL] partnerCenterMapper > insertAccountInfo
+2022-02-22 18:15:31 info: [sql] : 
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        'admin2'
+        , 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+        , 'ADMIN'
+        , '테스트'
+        , '02-123-4567'
+        , '010-1234-5678'
+        , 'testEmail@mybcorp.com'
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    
+2022-02-22 18:15:31 info: [EXCUTE SQL] partnerCenterMapper > insertBizInfo
+2022-02-22 18:15:31 info: [sql] : 
+      INSERT INTO TB_BIZ
+      (
+         BIZ_NM
+        , BIZ_TEL_NO
+        , BIZ_CEO_NM
+        , BIZ_NO
+        , BIZ_NO_IMG
+        , BIZ_SVC_TEL_NO
+        , BIZ_SITE_URL
+        , BIZ_CAL_MNG_NM
+        , BIZ_CAL_MNG_TEL_NO
+        , BIZ_CAL_MNG_PHONE_NO
+        , BIZ_CAL_MNG_EMAIL
+        , BIZ_CS_MNG_NM
+        , BIZ_CS_MNG_TEL_NO
+        , BIZ_CS_MNG_PHONE_NO
+        , BIZ_CS_MNG_EMAIL
+        , BIZ_SALE_MNG_NM
+        , BIZ_SALE_MNG_TEL_NO
+        , BIZ_SALE_MNG_PHONE_NO
+        , BIZ_SALE_MNG_EMAIL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+        )
+      VALUES(
+         '테스트 사업체명'
+        , '1588-1588'
+        , '테스트 대표자명'
+        , '586-81-00236'
+        , ''
+        , '1666-1666'
+        , 'https://mybmeal.co.kr/'
+
+        , '정산담당자명'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , 'cs담당자명'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , '영업담당자명'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+
+        , NULL
+        , '12'
+        , SYSDATE()
+        , '12'
+        , SYSDATE()
+        )
+    
+2022-02-22 18:15:31 info: [EXCUTE SQL] partnerCenterMapper > updateAccountInfo
+2022-02-22 18:15:31 info: [sql] : 
+      UPDATE TB_ACCOUNT
+      SET BIZ_ID = '1'
+      , FST_REG_ID = '12'
+      , LST_CHG_ID = '12'
+      WHERE ACC_ID = '12'
+    
+2022-02-22 18:24:23 info: MybScmSvr listening on port : 3001
+2022-02-22 18:27:30 info: MybScmSvr listening on port : 3001
+2022-02-22 18:27:32 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:27:33 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerAccountInfo
+2022-02-22 18:27:33 info: [sql] : 
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        'admin2'
+        , 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+        , 'ADMIN'
+        , '테스트'
+        , '02-123-4567'
+        , '010-1234-5678'
+        , 'testEmail@mybcorp.com'
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    
+2022-02-22 18:27:33 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-22 18:27:48 info: MybScmSvr listening on port : 3001
+2022-02-22 18:27:49 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:27:49 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerAccountInfo
+2022-02-22 18:27:49 info: [sql] : 
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        'admin2'
+        , 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+        , 'ADMIN'
+        , '테스트'
+        , '02-123-4567'
+        , '010-1234-5678'
+        , 'testEmail@mybcorp.com'
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    
+2022-02-22 18:27:49 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-22 18:28:01 info: MybScmSvr listening on port : 3001
+2022-02-22 18:28:03 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:28:03 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerAccountInfo
+2022-02-22 18:28:03 info: [sql] : 
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        'admin2'
+        , 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+        , 'ADMIN'
+        , '테스트'
+        , '02-123-4567'
+        , '010-1234-5678'
+        , 'testEmail@mybcorp.com'
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    
+2022-02-22 18:28:03 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerBizInfo
+2022-02-22 18:28:03 info: [sql] : 
+      INSERT INTO TB_BIZ
+      (
+         BIZ_NM
+        , BIZ_TEL_NO
+        , BIZ_CEO_NM
+        , BIZ_NO
+        , BIZ_NO_IMG
+        , BIZ_CORP_REG_NO
+        , BIZ_BUSINESS_TYPE
+        , BIZ_BUSINESS_KIND
+        , BIZ_MAIN_ITEM_HANDLE
+        , BIZ_ADDRESS
+        , BIZ_ADDRESS_SUB
+        , BIZ_TEL_NO
+        , BIZ_SVC_TEL_NO
+        , BIZ_FAX_NO
+        , BIZ_BANK_NM
+        , BIZ_BANK_ACCOUNT_NO
+        , BIZ_BANK_BOOK_IMG
+        , BIZ_CAL_MNG_NM
+        , BIZ_CAL_MNG_TEL_NO
+        , BIZ_CAL_MNG_PHONE_NO
+        , BIZ_CAL_MNG_EMAIL
+        , BIZ_CS_MNG_NM
+        , BIZ_CS_MNG_TEL_NO
+        , BIZ_CS_MNG_PHONE_NO
+        , BIZ_CS_MNG_EMAIL
+        , BIZ_SALE_MNG_NM
+        , BIZ_SALE_MNG_TEL_NO
+        , BIZ_SALE_MNG_PHONE_NO
+        , BIZ_SALE_MNG_EMAIL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+        )
+      VALUES(
+        '테스트 사업체명'
+        , '테스트 대표자명'
+        , '586-81-00236'
+        , ''
+        , '130111-0049139'
+        , '도소매'
+        , '유통전문판매업'
+        , '냉동간편식'
+        , '서울특별시 성동구 성수이로22길 37'
+        , '4층 406B호'
+        , '1588-1588'
+        , '1666-1666'
+        , '1588-1588'
+        , '우리은행'
+        , '1006-701-431499'
+        , ''
+        , 'cal양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , 'cs양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , 'sale양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , NULL
+        , '15'
+        , SYSDATE()
+        , '15'
+        , SYSDATE()
+        )
+    
+2022-02-22 18:28:03 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-22 18:28:23 info: MybScmSvr listening on port : 3001
+2022-02-22 18:28:25 info: [POST] /v1/partnerCenter/insertPartnerAccountInfo
+2022-02-22 18:28:25 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerAccountInfo
+2022-02-22 18:28:25 info: [sql] : 
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        'admin2'
+        , 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+        , 'ADMIN'
+        , '테스트'
+        , '02-123-4567'
+        , '010-1234-5678'
+        , 'testEmail@mybcorp.com'
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    
+2022-02-22 18:28:25 info: [EXCUTE SQL] partnerCenterMapper > insertPartnerBizInfo
+2022-02-22 18:28:25 info: [sql] : 
+      INSERT INTO TB_BIZ
+      (
+         BIZ_NM
+        , BIZ_CEO_NM
+        , BIZ_NO
+        , BIZ_NO_IMG
+        , BIZ_CORP_REG_NO
+        , BIZ_BUSINESS_TYPE
+        , BIZ_BUSINESS_KIND
+        , BIZ_MAIN_ITEM_HANDLE
+        , BIZ_ADDRESS
+        , BIZ_ADDRESS_SUB
+        , BIZ_TEL_NO
+        , BIZ_SVC_TEL_NO
+        , BIZ_FAX_NO
+        , BIZ_BANK_NM
+        , BIZ_BANK_ACCOUNT_NO
+        , BIZ_BANK_BOOK_IMG
+        , BIZ_CAL_MNG_NM
+        , BIZ_CAL_MNG_TEL_NO
+        , BIZ_CAL_MNG_PHONE_NO
+        , BIZ_CAL_MNG_EMAIL
+        , BIZ_CS_MNG_NM
+        , BIZ_CS_MNG_TEL_NO
+        , BIZ_CS_MNG_PHONE_NO
+        , BIZ_CS_MNG_EMAIL
+        , BIZ_SALE_MNG_NM
+        , BIZ_SALE_MNG_TEL_NO
+        , BIZ_SALE_MNG_PHONE_NO
+        , BIZ_SALE_MNG_EMAIL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+        )
+      VALUES(
+        '테스트 사업체명'
+        , '테스트 대표자명'
+        , '586-81-00236'
+        , ''
+        , '130111-0049139'
+        , '도소매'
+        , '유통전문판매업'
+        , '냉동간편식'
+        , '서울특별시 성동구 성수이로22길 37'
+        , '4층 406B호'
+        , '1588-1588'
+        , '1666-1666'
+        , '1588-1588'
+        , '우리은행'
+        , '1006-701-431499'
+        , ''
+        , 'cal양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , 'cs양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , 'sale양영범'
+        , '010-1234-5678'
+        , '010-1234-5678'
+        , 'test@tt.com'
+        , NULL
+        , '16'
+        , SYSDATE()
+        , '16'
+        , SYSDATE()
+        )
+    
+2022-02-22 18:28:25 info: [EXCUTE SQL] partnerCenterMapper > updatePartnerAccountInfo
+2022-02-22 18:28:25 info: [sql] : 
+      UPDATE TB_ACCOUNT
+      SET BIZ_ID = '2'
+      , FST_REG_ID = '16'
+      , LST_CHG_ID = '16'
+      WHERE ACC_ID = '16'
+    
+2022-02-22 18:31:46 info: MybScmSvr listening on port : 3001
+2022-02-22 18:31:51 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-22 18:31:51 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-22 18:31:51 info: [sql] : 
+      SELECT * FROM TB_BIZ
+      WHERE 1=1
+      
+    
+2022-02-22 18:32:15 info: MybScmSvr listening on port : 3001
+2022-02-22 18:32:16 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-22 18:32:17 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-22 18:32:17 info: [sql] : 
+      SELECT * FROM TB_BIZ
+      WHERE 1=1
+      
+    

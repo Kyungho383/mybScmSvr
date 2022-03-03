@@ -1,0 +1,177 @@
+# 설치 및 기타 명령어
+
+=========================
+//AWS 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -sL https://deb.nodesource.com/setup_16.13.2 | sudo -E bash -
+sudo npm install -g npm
+
+npm init
+nvm install node 16.13.2
+==========================
+//npm 설치 
+npm install -g npm
+
+//express 설치
+npm install express --save
+//express 구성하기 (package.json 생성됨)
+npm init
+
+//mysql 설치
+npm install mysql
+//mysql2 설치 - mysql2 만 받으세요
+npm install mysql2 
+
+//jwt 설치
+npm install --save jsonwebtoken
+//dotenv 환경변수 모듈 설치
+npm install dotenv
+
+//log 기록
+npm install winston
+npm install winston-daily-rotate-file
+
+//mybatis 설치
+npm install mybatis-mapper
+
+//multi-part/form-data 처리
+//multer
+//npm install multer
+//express-fileupload 
+npm i -S express-fileupload
+
+//AWS s3 
+npm install aws-sdk --save
+
+//request
+npm i --s request
+npm install xml-js 
+
+//cors
+npm install cors --save
+
+//forerver
+npm install forever -g
+
+//session 설치 [현재까지는 설치 하지 않음.]
+npm install express-session
+
+npm install response-time
+//설치목록 확인
+npm list
+//node 삭제 - 비활성 하기 / 버전 지정 삭제
+nvm deactivate
+nvm uninstall 16.13.2
+
+# 설정
+================================================================
+1.mysql result return 시 컬럼값을 camel case 로 return 하도록 설정
+================================================================
+* 파일 경로 : node_modules\mysql\lib\protocol\sequences\Query.js
+- 해당 파일내에 내용 변경
+
+@AS-IS
+Query.prototype['FieldPacket'] = function(packet) {
+  this._resultSet.fieldPackets.push(packet);
+};
+
+@TO-BE
+Query.prototype['FieldPacket'] = function(packet) {
+  var regType1 = /[a-z]/;
+  if(packet.name.indexOf('_') == -1){
+    if(regType1.test(packet.name)){
+
+    }else{
+      packet.name = packet.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());  
+    }
+  }else{
+    packet.name = packet.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+  }
+
+  this._resultSet.fieldPackets.push(packet);
+};
+
+-------------------------------------------------------------
+* 파일 경로 : node_modules\mysql2\lib\commands\query.js
+- 해당 파일내에 내용 변경
+
+@AS-IS
+if (this._fields[this._resultIndex].length !== this._fieldCount) {
+      const field = new Packets.ColumnDefinition(
+        packet,
+        connection.clientEncoding
+      );
+
+      var regType1 = /[a-z]/;
+      if(field.name.indexOf('_') == -1){
+        if(regType1.test(field.name)){
+
+        }else{
+          field.name = field.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());  
+        }
+      }else{
+        field.name = field.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+      }
+      
+      this._fields[this._resultIndex].push(field);
+      if (connection.config.debug) {
+        /* eslint-disable no-console */
+        console.log('        Column definition:');
+        console.log(`          name: ${field.name}`);
+        console.log(`          type: ${field.columnType}`);
+        console.log(`         flags: ${field.flags}`);
+        /* eslint-enable no-console */
+      }
+    }
+@TO-BE
+if (this._fields[this._resultIndex].length !== this._fieldCount) {
+      const field = new Packets.ColumnDefinition(
+        packet,
+        connection.clientEncoding
+      );
+
+      var regType1 = /[a-z]/;
+      if(field.name.indexOf('_') == -1){
+        if(regType1.test(field.name)){
+
+        }else{
+          field.name = field.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());  
+        }
+      }else{
+        field.name = field.name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+      }
+      
+      this._fields[this._resultIndex].push(field);
+      if (connection.config.debug) {
+        /* eslint-disable no-console */
+        console.log('        Column definition:');
+        console.log(`          name: ${field.name}`);
+        console.log(`          type: ${field.columnType}`);
+        console.log(`         flags: ${field.flags}`);
+        /* eslint-enable no-console */
+      }
+    }
+
+
+================================================================
+2.mybatis 내용 수정
+================================================================
+* 파일 경로 : node_modules\mybatis-mapper\index.d.ts
+@AS-IS
+  export function getStatement(
+    namespace: string,
+    sql: string,
+    param?: Params,
+    format?: Format
+  ): string;
+
+@TO-BE
+  export function getStatement(
+    namespace: string,
+    sql: string,
+    param?: Params,
+    format?: {language: 'sql', indent: ' '}
+  ): string;
+================================================================
+
+

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="productMapper">
+    <sql id="selectProductListInc">
+      SELECT 
+        A.*
+        , B.IMG_ID AS productThumbnailImgFileId
+        , FN_GET_IMG_PATH(B.IMG_ID) AS productThumbnailImgFilePath
+      FROM TB_PRODUCT A
+        LEFT OUTER JOIN TB_PRODUCT_IMG B ON A.PRODUCT_ID = B.PRODUCT_ID AND B.PI_FLAG = 1 AND B.USE_YN = 'Y'
+        WHERE 1=1
+        <if test="productBrdNm != '' and productBrdNm != null">
+          AND PRODUCT_BRD_NM LIKE CONCAT('%',#{productBrdNm},'%')
+        </if>
+        <if test="productNm != '' and productNm != null">
+          AND PRODUCT_NM LIKE CONCAT('%',#{productNm},'%')
+        </if>
+        <if test="startDt != '' and startDt != null">
+          <if test="endDt != '' and endDt != null">
+            AND DATE(A.FST_REG_DT) BETWEEN #{startDt} AND #{endDt}
+          </if>
+        </if>
+    </sql>
+
+    <select id="selectProductList">
+      WITH RST AS (
+      SELECT ROW_NUMBER() OVER() NO
+      , T.*
+      FROM (
+        <include refid="selectProductListInc"/>
+      ) AS T
+    )
+    
+    SELECT * FROM RST T1
+    WHERE 1=1
+    LIMIT ${startNo}, ${pageTerm}
+    </select>
+
+    <select id="selectProductListCnt">
+      SELECT COUNT(*) CNT
+       FROM (
+        <include refid="selectProductListInc"/>
+      ) RST
+    </select>
+    <select id="selectProductNutrientList">
+      SELECT * FROM TB_PRODUCT_NUTRIENT
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+    </select>
+
+    <insert id="insertProductInfo">
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        #{productBrdNm}
+        , #{productNm}
+        , #{productPrice}
+        , #{productDiscRate}
+        , #{productExplain}
+        , #{useYn}
+        , #{openYn}
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      )
+    </insert>
+    <insert id="insertProductCategoryInfo">
+      INSERT INTO TB_PRODUCT_CATEGORY
+      (
+        PRODUCT_ID
+        , CATEGORY_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        #{productId}
+        , #{categoryId}
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      )
+    </insert>
+    <insert id="insertProductNutrientList">
+      INSERT INTO TB_PRODUCT_NUTRIENT
+      (PRODUCT_ID
+      , NUTRIENT_NM
+      , NUTRIENT_UNIT
+      , NUTRIENT_VAL
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+      )
+      VALUES(
+        #{productId}
+        , #{nutrientNm}
+        , #{nutrientUnit}
+        , #{nutrientVal}
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      )
+    </insert>
+    <update id="updateProductNutrientList">
+      UPDATE TB_PRODUCT_NUTRIENT
+      SET 
+       NUTRIENT_NM = #{nutrientNm}
+      , NUTRIENT_UNIT = #{nutrientUnit}
+      , NUTRIENT_VAL = #{nutrientVal}
+      , LST_CHG_ID = #{accId}
+      , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+      AND PN_ID = #{pnId}
+
+    </update>
+    
+    <insert id="updateProductCategoryInfo">
+      UPDATE TB_PRODUCT_CATEGORY
+      SET 
+        CATEGORY_ID = #{categoryId}
+        , LST_CHG_ID = #{accId}
+        , LST_CHG_DT = SYSDATE()
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+    </insert>
+
+    <insert id="selectProductCategoryList">
+      SELECT * FROM TB_PRODUCT_CATEGORY
+      WHERE PRODUCT_ID = #{productId}
+    </insert>
+
+
+    <update id="updateProductInfo">
+      UPDATE TB_PRODUCT
+      SET
+        PRODUCT_BRD_NM = #{productBrdNm}
+        , PRODUCT_NM = #{productNm}
+        , PRODUCT_PRICE = #{productPrice}
+        , PRODUCT_DISC_RATE = #{productDiscRate}
+        , PRODUCT_EXPLAIN = #{productExplain}
+
+        , USE_YN = #{useYn}
+        , OPEN_YN = #{openYn}
+        , LST_CHG_ID = #{accId}
+        , LST_CHG_DT = SYSDATE()
+      WHERE
+        PRODUCT_ID = #{productId};
+    </update>
+
+    <delete id="deleteProductInfo">
+      DELETE FROM TB_PRODUCT
+      WHERE
+        PRODUCT_ID = #{productId}
+      ;
+
+      DELETE FROM TB_PRODUCT_NUTRIENT
+      WHERE
+        PRODUCT_ID = #{productId}
+      ;
+
+      DELETE FROM TB_PRODUCT_IMG
+      WHERE
+        PRODUCT_ID = #{productId}
+      ;
+    </delete>
+
+    <select id="selectCleanLabelList">
+      SELECT A.*
+      , FN_GET_IMG_PATH(A.IMG_ID) AS imgFilePath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+    </select>
+    <select id="selectCleanLabelInfo">
+      SELECT A.*
+      , (SELECT Z.IMG_PATH FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFilePath
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+       FROM TB_CLEANLABEL A
+      WHERE 1=1
+      AND CLEANLABEL_ID = #{cleanlabelId}
+    </select>
+    <insert id="insertCleanLabelList">
+      INSERT INTO TB_CLEANLABEL
+      (
+        CLEANLABEL_NUTRIENT_NM
+        , CLEANLABEL_NUTRIENT_STANDARD_VAL
+        , CLEANLABEL_NUTRIENT_FOOD_NM
+        , CLEANLABEL_NUTRIENT_UNIT
+        , CLEANLABEL_RESULT_VAL
+        , MIN_VAL
+        , MAX_VAL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+         #{cleanlabelNutrientNm}
+        , #{cleanlabelNutrientStandardVal}
+        , #{cleanlabelNutrientFoodNm}
+        , #{cleanlabelNutrientUnit}
+        , #{cleanlabelResultVal}
+        , #{minVal}
+        , #{maxVal}
+        , #{imgId}
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      )
+    </insert>
+    <update id="updateCleanLabelList">
+      UPDATE TB_CLEANLABEL
+      SET CLEANLABEL_NUTRIENT_NM = #{cleanlabelNutrientNm}
+      , CLEANLABEL_NUTRIENT_STANDARD_VAL = #{cleanlabelNutrientStandardVal}
+      , CLEANLABEL_NUTRIENT_FOOD_NM = #{cleanlabelNutrientFoodNm}
+      , CLEANLABEL_NUTRIENT_UNIT = #{cleanlabelNutrientUnit}
+      , CLEANLABEL_RESULT_VAL = #{cleanlabelResultVal}
+      , MIN_VAL=#{minVal}
+      , MAX_VAL=#{maxVal}
+      , IMG_ID=#{imgId}
+      , LST_CHG_ID = #{accId}
+      , LST_CHG_DT = SYSDATE()
+      WHERE CLEANLABEL_ID = #{cleanlabelId}
+    </update>
+    <delete id="deleteCleanLabelList">
+      DELETE FROM TB_CLEANLABEL
+      WHERE 1=1
+      AND CLEANLABEL_ID = #{cleanlabelId}
+    </delete>
+
+    <select id="selectProductDtlInfo">
+      SELECT A.*
+      FROM TB_PRODUCT A
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+    </select>
+    
+    <select id="selectProductImgList">
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+      <if test="piFlag != null AND piFlag != ''">
+      AND A.PI_FLAG = #{piFlag}
+      </if>
+    </select>
+    <select id="selectProductImgInfo">
+      SELECT A.*
+      , FN_GET_CODE_NM(1, A.PI_FLAG) AS PI_FLAG_NM
+      , FN_GET_IMG_PATH(A.IMG_ID) AS IMG_PATH
+      , (SELECT SUBSTR(Z.IMG_PATH,2) FROM TB_IMG Z WHERE Z.IMG_ID = A.IMG_ID) AS imgFileKeyPath
+      FROM TB_PRODUCT_IMG A
+      WHERE 1=1
+      AND PRODUCT_ID = #{productId}
+      <if test="piFlag != null AND piFlag != ''">
+      AND A.PI_FLAG = #{piFlag}
+      </if>
+
+    </select>
+
+    <insert id="insertProductImgInfo">
+      INSERT INTO TB_PRODUCT_IMG
+      (
+        PRODUCT_ID
+        , IMG_ID
+        , PI_FLAG
+        , PI_CONTENTS
+        , SORT
+        , USE_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        #{productId}
+        , #{imgId}
+        , #{piFlag}
+        , #{piContents}
+        , #{sort}
+        , 'Y'
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      ) 
+    </insert>
+    <update id="updateProductImgInfo">
+      UPDATE TB_PRODUCT_IMG
+      SET 
+      PRODUCT_ID        = #{productId}
+      , IMG_ID          = #{imgId}
+      , PI_FLAG         = #{piFlag}
+      , PI_CONTENTS     = #{piContents}
+      , SORT            = #{sort}
+      , USE_YN          = #{useYn}
+      , LST_CHG_ID      = #{accId}
+      , LST_CHG_DT      = SYSDATE()
+      WHERE 1=1
+      AND PI_ID = #{piId}
+      
+    </update>
+
+
+    <select id="selectCategoryList">
+      SELECT * FROM TB_CATEGORY A
+      ORDER BY A.SORT
+    </select>
+    
+
+</mapper>

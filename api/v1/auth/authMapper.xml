@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="authMapper">
+  <select id="selectUserChk" >
+    SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+      WHERE 1=1
+      AND A.ACC_USER_ID = #{accUserId}
+      AND A.ACC_PWD = #{accPwd}
+  </select>
+  <select id="selectLoginChk">
+    SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+      WHERE 1=1
+      AND A.ACC_USER_ID = #{accUserId}
+      AND A.ACC_PWD = #{accPwd}
+  </select>
+  <select id="selectAccountInfo">
+      SELECT * FROM TB_ACCOUNT A
+      WHERE 1=1
+      AND A.ACC_USER_ID = #{accUserId}
+  </select>
+  <insert id="insertUserLoginHist">
+    INSERT INTO TB_LOGIN_HIST
+    ( ACC_ID
+    , ACCESS_TOKEN
+    , REFRESH_TOKEN
+    , FST_REG_ID
+    , FST_REG_DT)
+    VALUES(
+    (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = #{accUserId})
+    , #{accessToken}
+    , #{refreshToken}
+    , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = #{accUserId})
+    , SYSDATE()
+    )
+  </insert>
+</mapper>

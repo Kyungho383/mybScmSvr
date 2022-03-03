@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fileMapper">
+  <insert id="insertFileInfo">
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    #{imgPath}
+    , #{imgFileNm}
+    , #{accId}
+    , SYSDATE()
+    , #{accId}
+    , SYSDATE()
+    )
+  </insert>
+  <delete id="deleteFileInfo">
+    DELETE FROM TB_IMG
+    WHERE IMG_ID = #{imgId}
+  </delete>
+  <select id="selectFileInfo">
+    SELECT * FROM TB_IMG
+    WHERE 1=1
+    AND IMG_ID
+  </select>
+
+</mapper>

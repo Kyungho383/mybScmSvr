@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "..\\logs\\.15ff3e37787f09ad1c52a3b7dfaa0bf1adb3ed3b-audit.json",
+    "files": [
+        {
+            "date": 1645515334618,
+            "name": "..\\logs\\2022-02-22_error.log",
+            "hash": "5ee2d79ced9106d4ee1ad515e18df0f7"
+        },
+        {
+            "date": 1645575060532,
+            "name": "..\\logs\\2022-02-23_error.log",
+            "hash": "eaf0991dbf0e22907c046df151956f1e"
+        },
+        {
+            "date": 1645661184592,
+            "name": "..\\logs\\2022-02-24_error.log",
+            "hash": "69184ddd4f7759a9f22b7247078006f0"
+        },
+        {
+            "date": 1645754918461,
+            "name": "..\\logs\\2022-02-25_error.log",
+            "hash": "193e6cd4f64a7b0332714ec0bc2e14eb"
+        },
+        {
+            "date": 1646011436547,
+            "name": "..\\logs\\2022-02-28_error.log",
+            "hash": "7190182b5b3cc991e38eb5ec9518c68c"
+        },
+        {
+            "date": 1646185045066,
+            "name": "..\\logs\\2022-03-02_error.log",
+            "hash": "50ad5f95df64c3e70bc2cf7eb715031f"
+        }
+    ],
+    "hashType": "md5"
+}

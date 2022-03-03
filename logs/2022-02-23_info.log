@@ -1,0 +1,3677 @@
+2022-02-23 09:11:00 info: MybScmSvr listening on port : 3001
+2022-02-23 09:11:04 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:11:04 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:11:04 info: [sql] : 
+      SELECT * FROM TB_BIZ
+      WHERE 1=1
+      
+    
+2022-02-23 09:12:21 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:12:21 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:12:21 info: [sql] : 
+      SELECT * FROM TB_BIZ
+      WHERE 1=1
+      
+    
+2022-02-23 09:14:26 info: MybScmSvr listening on port : 3001
+2022-02-23 09:14:27 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:14:27 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:14:27 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:14:27 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:14:33 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:14:33 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:14:33 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:14:33 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:15:03 info: MybScmSvr listening on port : 3001
+2022-02-23 09:15:05 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:15:05 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:15:05 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:15:05 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:15:46 info: MybScmSvr listening on port : 3001
+2022-02-23 09:15:47 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:15:48 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:15:48 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:15:48 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:16:10 info: MybScmSvr listening on port : 3001
+2022-02-23 09:16:11 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:16:11 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:16:11 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:16:11 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:17:07 info: MybScmSvr listening on port : 3001
+2022-02-23 09:17:09 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:17:09 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:17:09 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:17:09 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:17:47 info: MybScmSvr listening on port : 3001
+2022-02-23 09:17:48 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:17:48 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:17:48 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:17:48 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:19:27 info: MybScmSvr listening on port : 3001
+2022-02-23 09:19:28 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:19:28 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:19:28 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:19:28 error: Error: TypeError: Cannot read properties of undefined (reading 'length')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:20:18 info: MybScmSvr listening on port : 3001
+2022-02-23 09:20:19 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:20:19 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:20:19 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:20:19 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:20:34 info: MybScmSvr listening on port : 3001
+2022-02-23 09:20:35 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:20:35 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:20:35 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:20:35 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:25:24 info: MybScmSvr listening on port : 3001
+2022-02-23 09:25:26 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:25:26 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:25:26 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:25:26 error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+2022-02-23 09:25:26 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:25:41 info: MybScmSvr listening on port : 3001
+2022-02-23 09:25:43 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:25:43 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:25:43 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:25:43 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:25:43 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:26:01 info: MybScmSvr listening on port : 3001
+2022-02-23 09:26:04 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:26:04 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:26:04 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:26:04 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:26:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:27:15 info: MybScmSvr listening on port : 3001
+2022-02-23 09:27:19 info: MybScmSvr listening on port : 3001
+2022-02-23 09:27:21 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:27:21 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:27:21 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:27:21 error: {"message":"Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist","code":"ER_NO_SUCH_TABLE","errno":1146,"sql":"\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ","sqlState":"42S02","sqlMessage":"Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"}
+2022-02-23 09:27:21 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:27:49 info: MybScmSvr listening on port : 3001
+2022-02-23 09:27:51 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:27:51 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:27:51 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:27:51 error: {
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:27:51 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:28:23 info: MybScmSvr listening on port : 3001
+2022-02-23 09:28:24 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:28:24 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:28:24 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:28:24 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+2022-02-23 09:28:25 error: {
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:28:25 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:28:37 info: MybScmSvr listening on port : 3001
+2022-02-23 09:28:38 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:28:38 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:28:38 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:28:38 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:28:38 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:30:56 info: MybScmSvr listening on port : 3001
+2022-02-23 09:30:57 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:30:57 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:30:57 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:30:57 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:30:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:31:44 info: MybScmSvr listening on port : 3001
+2022-02-23 09:31:45 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:31:45 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:31:45 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:31:45 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:04 info: MybScmSvr listening on port : 3001
+2022-02-23 09:32:06 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:32:06 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:32:06 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:32:06 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 09:32:36 info: MybScmSvr listening on port : 3001
+2022-02-23 09:32:38 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 09:32:38 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 09:32:38 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 09:32:38 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 09:32:38 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:51:46 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 10:51:46 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 10:51:46 info: [sql] : 
+      SELECT * FROM TB_BIZz
+      WHERE 1=1
+    
+2022-02-23 10:51:46 error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectPartnerCenterList (C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterService.js:35:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:25:17
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT * FROM TB_BIZz\r\n      WHERE 1=1\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist"
+}
+2022-02-23 10:51:46 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_BIZz' doesn't exist
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:30:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:51:53 info: MybScmSvr listening on port : 3001
+2022-02-23 10:51:55 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 10:51:55 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 10:51:55 info: [sql] : 
+      SELECT * FROM TB_BIZ
+      WHERE 1=1
+    
+2022-02-23 10:52:02 info: [POST] /v1/auth/login
+2022-02-23 10:52:02 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:52:02 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:52:02 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:52:02 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:52:02 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 10:52:02 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 10:52:02 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 10:52:02 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:52:02 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:52:02 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:52:02 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:52:02 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:53:46 info: MybScmSvr listening on port : 3001
+2022-02-23 10:53:48 info: [POST] /v1/auth/login
+2022-02-23 10:53:48 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:53:48 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:53:48 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:53:48 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:53:48 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 10:53:48 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 10:53:48 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 10:53:48 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:53:48 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:53:48 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:53:48 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:53:48 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:01 info: MybScmSvr listening on port : 3001
+2022-02-23 10:54:02 info: [POST] /v1/auth/login
+2022-02-23 10:54:02 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:54:02 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:54:03 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:54:03 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:54:03 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 10:54:03 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 10:54:03 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 10:54:03 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:03 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:54:03 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:03 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:54:03 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:22 info: MybScmSvr listening on port : 3001
+2022-02-23 10:54:24 info: [POST] /v1/auth/login
+2022-02-23 10:54:24 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:54:24 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:54:24 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:54:24 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:54:24 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 10:54:24 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 10:54:24 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 10:54:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:24 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:54:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:54:24 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 10:54:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 10:55:06 info: MybScmSvr listening on port : 3001
+2022-02-23 10:55:07 info: [POST] /v1/auth/login
+2022-02-23 10:55:08 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:55:08 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:55:08 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:55:08 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:57:33 info: MybScmSvr listening on port : 3001
+2022-02-23 10:57:35 info: [POST] /v1/auth/login
+2022-02-23 10:57:35 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:57:35 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:57:35 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:57:35 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:58:20 info: MybScmSvr listening on port : 3001
+2022-02-23 10:58:21 info: [POST] /v1/auth/login
+2022-02-23 10:58:21 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:58:21 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:58:21 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:58:21 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:58:21 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:58:41 info: MybScmSvr listening on port : 3001
+2022-02-23 10:58:42 info: [POST] /v1/auth/login
+2022-02-23 10:58:42 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:58:42 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:58:42 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:58:42 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:58:42 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 10:59:36 info: MybScmSvr listening on port : 3001
+2022-02-23 10:59:38 info: [POST] /v1/auth/login
+2022-02-23 10:59:39 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 10:59:39 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 10:59:39 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 10:59:39 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 10:59:39 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:00:07 info: MybScmSvr listening on port : 3001
+2022-02-23 11:00:08 info: [POST] /v1/auth/login
+2022-02-23 11:00:09 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:00:09 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:00:09 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:00:09 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:00:09 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:00:49 info: MybScmSvr listening on port : 3001
+2022-02-23 11:00:51 info: [POST] /v1/auth/login
+2022-02-23 11:00:51 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:00:51 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:00:51 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:00:51 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:00:51 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:02:46 info: MybScmSvr listening on port : 3001
+2022-02-23 11:02:47 info: [POST] /v1/auth/login
+2022-02-23 11:02:47 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:02:47 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:02:47 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:02:47 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:02:47 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:03:17 info: MybScmSvr listening on port : 3001
+2022-02-23 11:03:18 info: [POST] /v1/auth/login
+2022-02-23 11:03:18 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:03:18 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:03:18 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:03:18 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:03:18 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:04:08 info: MybScmSvr listening on port : 3001
+2022-02-23 11:04:09 info: [POST] /v1/auth/login
+2022-02-23 11:04:09 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:04:09 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:04:09 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:04:09 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:05:52 info: MybScmSvr listening on port : 3001
+2022-02-23 11:05:54 info: [POST] /v1/auth/login
+2022-02-23 11:05:54 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:05:54 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:05:54 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:05:54 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:07:23 info: MybScmSvr listening on port : 3001
+2022-02-23 11:07:25 info: [POST] /v1/auth/login
+2022-02-23 11:07:25 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:07:25 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:07:25 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:07:25 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:07:54 info: MybScmSvr listening on port : 3001
+2022-02-23 11:07:56 info: [POST] /v1/auth/login
+2022-02-23 11:07:56 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:07:56 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:07:56 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:07:56 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:08:13 info: MybScmSvr listening on port : 3001
+2022-02-23 11:08:14 info: [POST] /v1/auth/login
+2022-02-23 11:08:14 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:08:14 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:08:14 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:08:14 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:09:40 info: MybScmSvr listening on port : 3001
+2022-02-23 11:09:42 info: [POST] /v1/auth/login
+2022-02-23 11:09:42 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:09:42 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:09:42 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:09:42 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:10:03 info: MybScmSvr listening on port : 3001
+2022-02-23 11:10:05 info: [POST] /v1/auth/login
+2022-02-23 11:10:05 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:10:05 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:10:05 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:10:05 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:10:55 info: MybScmSvr listening on port : 3001
+2022-02-23 11:10:56 info: [POST] /v1/auth/login
+2022-02-23 11:10:56 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:10:56 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:10:56 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:10:56 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:11:20 info: MybScmSvr listening on port : 3001
+2022-02-23 11:11:23 info: [POST] /v1/auth/login
+2022-02-23 11:11:23 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:11:23 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:11:23 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:11:23 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:11:52 info: MybScmSvr listening on port : 3001
+2022-02-23 11:11:56 info: [POST] /v1/auth/login
+2022-02-23 11:11:56 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:11:56 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:11:56 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:11:56 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:12:14 info: MybScmSvr listening on port : 3001
+2022-02-23 11:12:15 info: [POST] /v1/auth/login
+2022-02-23 11:12:15 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:12:15 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:12:15 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:12:15 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:12:34 info: MybScmSvr listening on port : 3001
+2022-02-23 11:12:35 info: [POST] /v1/auth/login
+2022-02-23 11:12:35 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:12:35 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:12:35 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:12:35 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:14:02 info: MybScmSvr listening on port : 3001
+2022-02-23 11:14:07 info: [POST] /v1/auth/login
+2022-02-23 11:14:07 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:14:07 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:14:07 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:14:07 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:15:16 info: MybScmSvr listening on port : 3001
+2022-02-23 11:15:20 info: [POST] /v1/auth/login
+2022-02-23 11:15:20 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:15:20 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:15:20 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:15:20 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:15:20 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:15:33 info: MybScmSvr listening on port : 3001
+2022-02-23 11:15:35 info: [POST] /v1/auth/login
+2022-02-23 11:15:35 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:15:35 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:15:35 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:15:35 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:15:35 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:16:07 info: MybScmSvr listening on port : 3001
+2022-02-23 11:16:10 info: [POST] /v1/auth/login
+2022-02-23 11:16:10 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:16:10 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:16:10 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:16:10 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:16:10 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:17:06 info: MybScmSvr listening on port : 3001
+2022-02-23 11:17:07 info: [POST] /v1/auth/login
+2022-02-23 11:17:07 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:17:07 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:17:07 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:17:07 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:17:07 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:17:32 info: MybScmSvr listening on port : 3001
+2022-02-23 11:17:34 info: [POST] /v1/auth/login
+2022-02-23 11:17:35 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:17:35 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:17:35 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:17:35 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:17:35 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:18:05 info: MybScmSvr listening on port : 3001
+2022-02-23 11:18:07 info: [POST] /v1/auth/login
+2022-02-23 11:18:07 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:18:07 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:18:07 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:18:07 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:18:07 error: {}
+2022-02-23 11:18:07 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:95:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:18:19 info: MybScmSvr listening on port : 3001
+2022-02-23 11:18:22 info: [POST] /v1/auth/login
+2022-02-23 11:18:22 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:18:22 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:18:22 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:18:22 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:18:22 error: {}
+2022-02-23 11:18:31 info: MybScmSvr listening on port : 3001
+2022-02-23 11:18:32 info: [POST] /v1/auth/login
+2022-02-23 11:18:32 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:18:32 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:18:32 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:18:32 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:18:32 error: {}
+2022-02-23 11:18:32 error: {}
+2022-02-23 11:18:59 info: MybScmSvr listening on port : 3001
+2022-02-23 11:19:00 info: [POST] /v1/auth/login
+2022-02-23 11:19:00 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:19:00 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:19:01 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:19:01 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:19:01 error: {}
+2022-02-23 11:19:01 error: {}
+2022-02-23 11:19:38 info: MybScmSvr listening on port : 3001
+2022-02-23 11:19:39 info: [POST] /v1/auth/login
+2022-02-23 11:19:40 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:19:40 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:19:40 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:19:40 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:19:40 error: {}
+2022-02-23 11:19:40 error: {}
+2022-02-23 11:19:55 info: MybScmSvr listening on port : 3001
+2022-02-23 11:19:57 info: [POST] /v1/auth/login
+2022-02-23 11:19:57 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:19:57 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:19:57 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:19:57 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:19:57 error: {}
+2022-02-23 11:20:41 info: MybScmSvr listening on port : 3001
+2022-02-23 11:20:43 info: [POST] /v1/auth/login
+2022-02-23 11:20:43 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:20:43 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:20:43 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:20:43 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:20:43 error: authService.insertUserLeoginHist is not a function
+2022-02-23 11:21:29 info: MybScmSvr listening on port : 3001
+2022-02-23 11:21:31 info: [POST] /v1/auth/login
+2022-02-23 11:21:31 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:21:31 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:21:31 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:21:31 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:21:31 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:21:31 error: {}
+2022-02-23 11:21:58 info: MybScmSvr listening on port : 3001
+2022-02-23 11:22:00 info: [POST] /v1/auth/login
+2022-02-23 11:22:00 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:22:00 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:22:00 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:22:00 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:22:00 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:22:00 error: {}
+2022-02-23 11:22:28 info: MybScmSvr listening on port : 3001
+2022-02-23 11:22:29 info: [POST] /v1/auth/login
+2022-02-23 11:22:29 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:22:29 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:22:29 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:22:29 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:22:29 error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:22:29 error: {}
+2022-02-23 11:23:04 info: MybScmSvr listening on port : 3001
+2022-02-23 11:23:05 info: [POST] /v1/auth/login
+2022-02-23 11:23:05 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:23:05 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:23:05 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:23:05 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:23:05 error: {}
+2022-02-23 11:23:41 info: MybScmSvr listening on port : 3001
+2022-02-23 11:23:43 info: [POST] /v1/auth/login
+2022-02-23 11:23:43 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:23:43 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:23:43 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:23:43 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:23:43 error: "Error: TypeError: authService.insertUserLeoginHist is not a function\n    at C:\\myb\\source\\backEnd\\mybScmSvr\\api\\v1\\auth\\authController.js:56:46\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at C:\\myb\\source\\backEnd\\mybScmSvr\\api\\v1\\auth\\authController.js:96:14\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+2022-02-23 11:23:53 info: MybScmSvr listening on port : 3001
+2022-02-23 11:23:55 info: [POST] /v1/auth/login
+2022-02-23 11:23:55 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:23:55 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:23:55 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:23:55 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:23:55 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:96:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:29:08 info: MybScmSvr listening on port : 3001
+2022-02-23 11:29:10 info: [POST] /v1/auth/login
+2022-02-23 11:29:10 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:29:10 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:29:10 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:29:10 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:29:10 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:29:18 info: MybScmSvr listening on port : 3001
+2022-02-23 11:29:19 info: [POST] /v1/auth/login
+2022-02-23 11:29:19 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:29:19 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:29:19 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:29:19 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:29:19 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:30:06 info: MybScmSvr listening on port : 3001
+2022-02-23 11:30:08 info: [POST] /v1/auth/login
+2022-02-23 11:30:08 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:30:08 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:30:08 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:30:08 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:30:08 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:30:30 info: MybScmSvr listening on port : 3001
+2022-02-23 11:30:32 info: [POST] /v1/auth/login
+2022-02-23 11:30:32 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:30:32 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACC3OUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:30:32 error: Error: Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectLoginChk (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:51:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:34:19
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      SELECT COUNT(*) CNT FROM TB_ACC3OUNT A\r\n        WHERE 1=1\r\n        AND A.ACC_USER_ID = concat('admin','y')\r\n        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist"
+}
+2022-02-23 11:30:32 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_ACC3OUNT' doesn't exist
+    at Object.selectLoginChk (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:57:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:34:19
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:31:11 info: MybScmSvr listening on port : 3001
+2022-02-23 11:31:13 info: [POST] /v1/auth/login
+2022-02-23 11:31:13 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:31:13 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:32:05 info: MybScmSvr listening on port : 3001
+2022-02-23 11:32:07 info: [POST] /v1/auth/login
+2022-02-23 11:32:07 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:32:07 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:32:07 error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:92:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:32:33 info: MybScmSvr listening on port : 3001
+2022-02-23 11:32:35 info: [POST] /v1/auth/login
+2022-02-23 11:32:35 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:32:35 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:32:35 error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:93:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:33:15 info: MybScmSvr listening on port : 3001
+2022-02-23 11:33:16 info: [POST] /v1/auth/login
+2022-02-23 11:33:16 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:33:16 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:33:16 error: Error: Error: 해당 계정 없음
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:34:49 info: MybScmSvr listening on port : 3001
+2022-02-23 11:34:52 info: [POST] /v1/auth/login
+2022-02-23 11:34:52 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:34:52 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = concat('admin','y')
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:34:52 error: Error: Error: not find Account
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:83:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:35:56 info: MybScmSvr listening on port : 3001
+2022-02-23 11:35:57 info: [POST] /v1/auth/login
+2022-02-23 11:35:57 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:35:57 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:35:57 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:35:57 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:35:57 error: Error: TypeError: authService.insertUserLeoginHist is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:46
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:36:08 info: MybScmSvr listening on port : 3001
+2022-02-23 11:36:09 info: [POST] /v1/auth/login
+2022-02-23 11:36:09 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:36:09 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:36:09 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:36:09 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:36:09 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:36:09 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:36:09 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:36:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:36:09 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:36:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:36:09 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:36:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:36:50 info: MybScmSvr listening on port : 3001
+2022-02-23 11:36:52 info: [POST] /v1/auth/login
+2022-02-23 11:36:52 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:36:52 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:36:52 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:36:52 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:36:52 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:36:52 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:36:52 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:36:52 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:36:52 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:36:52 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:36:52 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:36:52 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:37:34 info: MybScmSvr listening on port : 3001
+2022-02-23 11:37:36 info: [POST] /v1/auth/login
+2022-02-23 11:37:36 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:37:36 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:37:36 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:37:36 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:37:36 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:37:36 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:37:36 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:28
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:37:36 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:37:36 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:37:36 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:37:36 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:37:36 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:37:36 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:37:36 error: Error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:38:27 info: MybScmSvr listening on port : 3001
+2022-02-23 11:38:29 info: [POST] /v1/auth/login
+2022-02-23 11:38:29 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:38:29 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:38:29 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:38:29 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:38:29 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:38:29 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:38:29 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:38:29 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:38:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:38:29 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:38:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:38:29 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:38:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:38:29 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:38:55 info: MybScmSvr listening on port : 3001
+2022-02-23 11:38:57 info: [POST] /v1/auth/login
+2022-02-23 11:38:58 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:38:58 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:38:58 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:38:58 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:38:58 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:38:58 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:38:58 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:38:58 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:84:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:11 info: MybScmSvr listening on port : 3001
+2022-02-23 11:39:12 info: [POST] /v1/auth/login
+2022-02-23 11:39:12 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:39:12 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:39:12 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:39:12 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:39:12 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:39:12 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:39:12 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:39:12 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:34 info: [POST] /v1/auth/login
+2022-02-23 11:39:34 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:39:34 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:39:34 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:39:34 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:39:34 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:39:34 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:39:34 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:39:34 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:39:38 info: MybScmSvr listening on port : 3001
+2022-02-23 11:39:39 info: [POST] /v1/auth/login
+2022-02-23 11:39:39 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:39:39 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:39:39 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:39:39 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:39:39 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:39:39 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:39:39 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:39:39 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:39:39 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:39:39 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:39:39 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:39:39 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:39:39 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:40:02 info: MybScmSvr listening on port : 3001
+2022-02-23 11:40:04 info: [POST] /v1/auth/login
+2022-02-23 11:40:04 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:40:04 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:40:04 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:40:04 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:40:04 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:40:04 info: [sql] : 
+      INSERT INTO TB_LOGIN_H3IST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:40:04 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGIN_H3IST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist"
+}
+2022-02-23 11:40:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGIN_H3IST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:40:14 info: MybScmSvr listening on port : 3001
+2022-02-23 11:40:15 info: [POST] /v1/auth/login
+2022-02-23 11:40:15 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:40:15 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:40:15 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:40:15 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:40:15 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:40:15 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:40:15 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:40:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:40:15 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:40:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:40:15 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:40:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:40:15 error: Error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\response.js:267:15)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:90:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:41:36 info: MybScmSvr listening on port : 3001
+2022-02-23 11:41:37 info: [POST] /v1/auth/login
+2022-02-23 11:41:37 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:41:37 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:41:37 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:41:37 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:41:37 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:41:37 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:41:37 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:41:37 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:41:37 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:41:37 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:41:37 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:41:37 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:43:34 info: MybScmSvr listening on port : 3001
+2022-02-23 11:43:39 info: [POST] /v1/auth/login
+2022-02-23 11:43:39 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:43:39 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:43:39 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:43:39 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:43:39 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:43:39 info: [sql] : 
+      INSERT INTO TB_LOGI3N_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:43:39 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGI3N_HIST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist"
+}
+2022-02-23 11:43:39 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:47:11 info: [POST] /v1/auth/login
+2022-02-23 11:47:11 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:47:11 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:47:11 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:47:11 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:47:11 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:47:11 info: [sql] : 
+      INSERT INTO TB_LOGI3N_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:47:11 error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:79:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n      INSERT INTO TB_LOGI3N_HIST\r\n      ( ACC_ID\r\n      , ACCESS_TOKEN\r\n      , REFRESH_TOKEN\r\n      , FST_REG_ID\r\n      , FST_REG_DT)\r\n      VALUES(\r\n      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'\r\n      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'\r\n      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')\r\n      , SYSDATE()\r\n      )\r\n    ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist"
+}
+2022-02-23 11:47:11 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_LOGI3N_HIST' doesn't exist
+    at Object.insertUserLoginHist (C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authService.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:56:11
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:91:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:47:17 info: MybScmSvr listening on port : 3001
+2022-02-23 11:47:19 info: [POST] /v1/auth/login
+2022-02-23 11:47:19 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:47:19 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:47:19 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:47:19 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:47:19 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:47:19 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:47:19 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:47:19 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:47:19 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:47:19 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:47:19 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:47:19 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:50:20 info: MybScmSvr listening on port : 3001
+2022-02-23 11:50:23 info: [POST] /v1/auth/login
+2022-02-23 11:50:23 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:50:23 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:50:23 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:50:23 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:50:23 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:50:23 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:50:23 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:50:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:50:23 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:50:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:50:23 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:50:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:50:23 error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:51:07 info: MybScmSvr listening on port : 3001
+2022-02-23 11:51:09 info: [POST] /v1/auth/login
+2022-02-23 11:51:09 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:51:09 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:51:09 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:51:09 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:51:09 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:51:09 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:51:09 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:51:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:09 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:51:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:09 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:51:09 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:09 error: Error: TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:81:18
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:51:39 info: MybScmSvr listening on port : 3001
+2022-02-23 11:51:40 info: [POST] /v1/auth/login
+2022-02-23 11:51:40 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:51:40 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:51:40 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:51:40 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:51:40 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:51:40 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:51:40 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:51:40 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:40 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:51:40 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:40 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:51:40 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:51:41 error: Error: TypeError: Cannot set properties of undefined (setting 'koko')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:88:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:52:21 info: MybScmSvr listening on port : 3001
+2022-02-23 11:52:23 info: [POST] /v1/auth/login
+2022-02-23 11:52:23 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:52:23 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:52:23 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:52:23 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:52:23 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:52:23 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:52:23 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:52:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:52:23 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:52:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:52:23 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:52:23 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:52:23 error: Error: TypeError: Cannot set properties of undefined (setting 'koko')
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:80:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:53:14 info: MybScmSvr listening on port : 3001
+2022-02-23 11:53:15 info: [POST] /v1/auth/login
+2022-02-23 11:53:15 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:53:15 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:53:15 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:53:15 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:53:15 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:53:15 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:53:15 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:53:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:15 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:53:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:15 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:53:15 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:55 info: MybScmSvr listening on port : 3001
+2022-02-23 11:53:56 info: [POST] /v1/auth/login
+2022-02-23 11:53:56 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:53:56 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:53:56 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:53:56 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:53:56 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:53:56 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:53:56 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:56 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:56 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:53:56 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:53:56 error: Error: ReferenceError: undefiend is not defined
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:82:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\auth\authController.js:89:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 11:54:21 info: MybScmSvr listening on port : 3001
+2022-02-23 11:54:28 info: [POST] /v1/auth/login
+2022-02-23 11:54:29 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 11:54:29 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 11:54:29 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 11:54:29 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 11:54:29 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 11:54:29 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 11:54:29 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 11:54:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:54:29 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:54:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 11:54:29 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 11:54:29 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 13:01:52 info: MybScmSvr listening on port : 3001
+2022-02-23 13:01:54 info: [POST] /v1/auth/login
+2022-02-23 13:01:54 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 13:01:54 info: [sql] : 
+      SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+        AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+    
+2022-02-23 13:01:54 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 13:01:54 info: [sql] : 
+        SELECT * FROM TB_ACCOUNT A
+        WHERE 1=1
+        AND A.ACC_USER_ID = 'admin'
+    
+2022-02-23 13:01:54 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 13:01:54 info: [sql] : 
+      INSERT INTO TB_LOGIN_HIST
+      ( ACC_ID
+      , ACCESS_TOKEN
+      , REFRESH_TOKEN
+      , FST_REG_ID
+      , FST_REG_DT)
+      VALUES(
+      (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+      , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+      , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+      , SYSDATE()
+      )
+    
+2022-02-23 13:01:54 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 13:01:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 13:01:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 13:01:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 13:01:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 13:01:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 13:05:40 info: MybScmSvr listening on port : 3001
+2022-02-23 13:06:08 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:06:08 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:06:08 info: [sql] : 
+    SELECT * FROM TB_CODE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:06:31 info: MybScmSvr listening on port : 3001
+2022-02-23 13:06:32 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:06:32 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:06:32 info: [sql] : 
+    SELECT * FROM TB_C3ODE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:06:32 error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_C3ODE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist"
+}
+2022-02-23 13:06:32 error: Error: Error
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:07:20 info: MybScmSvr listening on port : 3001
+2022-02-23 13:07:21 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:07:21 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:07:21 info: [sql] : 
+    SELECT * FROM TB_CODE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:07:27 info: MybScmSvr listening on port : 3001
+2022-02-23 13:07:29 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:07:29 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:07:29 info: [sql] : 
+    SELECT * FROM TB_C3ODE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:07:29 error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_C3ODE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist"
+}
+2022-02-23 13:07:29 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_C3ODE' doesn't exist
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:08:28 info: MybScmSvr listening on port : 3001
+2022-02-23 13:08:50 info: MybScmSvr listening on port : 3001
+2022-02-23 13:08:53 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:08:53 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:08:53 info: [sql] : 
+    SELECT * FROM TB_CODE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:08:58 info: MybScmSvr listening on port : 3001
+2022-02-23 13:09:01 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:09:01 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:09:01 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:09:01 error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+2022-02-23 13:09:01 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:10:04 info: MybScmSvr listening on port : 3001
+2022-02-23 13:10:06 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:10:06 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:10:06 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:10:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:10:50 info: MybScmSvr listening on port : 3001
+2022-02-23 13:10:51 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:10:51 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:10:51 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:10:51 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:11:06 info: MybScmSvr listening on port : 3001
+2022-02-23 13:11:07 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:11:07 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:11:07 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:11:07 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:11:34 info: MybScmSvr listening on port : 3001
+2022-02-23 13:11:35 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:11:35 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:11:35 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:11:35 error: Error: Error: Error
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:12:16 info: MybScmSvr listening on port : 3001
+2022-02-23 13:12:18 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:12:18 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:12:18 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:12:18 error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+2022-02-23 13:12:18 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:08 info: MybScmSvr listening on port : 3001
+2022-02-23 13:14:10 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:14:10 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:14:10 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:14:10 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:10 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:23:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:25 info: MybScmSvr listening on port : 3001
+2022-02-23 13:14:27 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:14:27 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:14:27 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:14:27 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:27 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:14:44 info: MybScmSvr listening on port : 3001
+2022-02-23 13:14:45 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:14:45 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:14:45 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:14:45 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:14:45 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:15:44 info: MybScmSvr listening on port : 3001
+2022-02-23 13:15:46 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:15:46 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:15:46 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:15:46 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:15:46 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:16:55 info: MybScmSvr listening on port : 3001
+2022-02-23 13:16:57 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:16:57 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:16:57 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:16:57 error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{}
+2022-02-23 13:16:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:53:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:21 info: MybScmSvr listening on port : 3001
+2022-02-23 13:17:22 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:17:22 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:17:22 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:17:22 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:24:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:38 info: MybScmSvr listening on port : 3001
+2022-02-23 13:17:40 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:17:40 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:17:40 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:17:40 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:17:56 info: MybScmSvr listening on port : 3001
+2022-02-23 13:17:57 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:17:57 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:17:58 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:17:58 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:18:05 info: MybScmSvr listening on port : 3001
+2022-02-23 13:18:06 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:18:06 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:18:06 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:18:06 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:18:29 info: MybScmSvr listening on port : 3001
+2022-02-23 13:18:31 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:18:31 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:18:31 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:18:31 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:03 info: MybScmSvr listening on port : 3001
+2022-02-23 13:19:04 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:19:04 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:19:04 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:19:04 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:19 info: MybScmSvr listening on port : 3001
+2022-02-23 13:19:20 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:19:20 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:19:20 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:19:20 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:19:55 info: MybScmSvr listening on port : 3001
+2022-02-23 13:19:57 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:19:57 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:19:57 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:19:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:25:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:20:54 info: MybScmSvr listening on port : 3001
+2022-02-23 13:20:57 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:20:57 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:20:57 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:20:57 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:52:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:17)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:24:17 info: MybScmSvr listening on port : 3001
+2022-02-23 13:24:19 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:24:19 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:24:19 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:24:19 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:01 info: MybScmSvr listening on port : 3001
+2022-02-23 13:26:02 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:26:02 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:26:02 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:26:02 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:29 info: MybScmSvr listening on port : 3001
+2022-02-23 13:26:35 info: MybScmSvr listening on port : 3001
+2022-02-23 13:26:36 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:26:36 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:26:36 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:26:36 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 13:26:51 info: MybScmSvr listening on port : 3001
+2022-02-23 13:26:52 info: [POST] /v1/code/selectCodeList
+2022-02-23 13:26:52 info: [EXCUTE SQL] codeMapper > selectCodeList
+2022-02-23 13:26:52 info: [sql] : 
+    SELECT * FROM TB_CO3DE
+    WHERE 1=1
+    AND CODE_GRP_ID = '1'
+  
+2022-02-23 13:26:52 error: Error: Error: Error: Error: Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist
+    at PromisePoolConnection.query (C:\myb\source\backEnd\mybScmSvr\node_modules\mysql2\promise.js:93:22)
+    at Object.sqlExcute (C:\myb\source\backEnd\mybScmSvr\api\@config\mysql.js:46:45)
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:17:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+{
+  "message": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist",
+  "code": "ER_NO_SUCH_TABLE",
+  "errno": 1146,
+  "sql": "\r\n    SELECT * FROM TB_CO3DE\r\n    WHERE 1=1\r\n    AND CODE_GRP_ID = '1'\r\n  ",
+  "sqlState": "42S02",
+  "sqlMessage": "Table 'MYB_DB_SCM_REAL.TB_CO3DE' doesn't exist"
+}
+    at Object.selectCodeList (C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeService.js:22:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:12:15
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\code\codeController.js:17:10
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 14:24:24 info: [POST] /v1/menu/selectMenuList
+2022-02-23 14:24:24 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 14:24:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 14:24:24 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 14:24:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 14:24:24 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 14:24:24 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 14:30:37 info: MybScmSvr listening on port : 3001
+2022-02-23 14:30:47 info: [POST] /v1/product/selectProductList
+2022-02-23 14:30:47 info: [EXCUTE SQL] productMapper > selectProductList
+2022-02-23 14:30:47 info: [sql] : 
+      WITH RST AS (
+      SELECT ROW_NUMBER() OVER() NO
+      , T.*
+      FROM (
+        
+      SELECT A.*
+        , (SELECT Z.IMG_ID FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID ORDER BY SORT LIMIT 1) AS IMG_ID
+        , (SELECT FN_GET_IMG_PATH(Z.IMG_ID) FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID ORDER BY SORT LIMIT 1) AS IMG_PATH
+        FROM TB_PRODUCT A
+
+        WHERE 1=1
+        
+          AND PRODUCT_BRD_NM LIKE CONCAT('%','마이비','%')
+         
+          AND PRODUCT_NM LIKE CONCAT('%','도시락','%')
+          
+            AND DATE(FST_REG_DT) BETWEEN '2021-12-16' AND '2022-12-30'
+            
+      ) AS T
+    )
+    
+    SELECT * FROM RST T1
+    WHERE 1=1
+    LIMIT 0, 12
+    
+2022-02-23 14:30:48 info: [EXCUTE SQL] productMapper > selectProductListCnt
+2022-02-23 14:30:48 info: [sql] : 
+      SELECT COUNT(*) CNT
+       FROM (
+        
+      SELECT A.*
+        , (SELECT Z.IMG_ID FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID ORDER BY SORT LIMIT 1) AS IMG_ID
+        , (SELECT FN_GET_IMG_PATH(Z.IMG_ID) FROM TB_PRODUCT_IMG Z WHERE A.PRODUCT_ID = Z.PRODUCT_ID ORDER BY SORT LIMIT 1) AS IMG_PATH
+        FROM TB_PRODUCT A
+
+        WHERE 1=1
+        
+          AND PRODUCT_BRD_NM LIKE CONCAT('%','마이비','%')
+         
+          AND PRODUCT_NM LIKE CONCAT('%','도시락','%')
+          
+            AND DATE(FST_REG_DT) BETWEEN '2021-12-16' AND '2022-12-30'
+            
+      ) RST
+    
+2022-02-23 14:30:58 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 14:30:58 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 14:30:58 info: [sql] : 
+      WITH RST AS (
+        SELECT ROW_NUMBER() OVER() NO
+        , T.*
+        FROM (
+          SELECT * FROM TB_BIZ
+          WHERE 1=1
+        ) AS T
+      )
+      SELECT * FROM RST T1
+      WHERE 1=1
+      LIMIT 0, 12
+
+    
+2022-02-23 14:31:05 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 14:31:05 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 14:31:05 info: [sql] : 
+      WITH RST AS (
+        SELECT ROW_NUMBER() OVER() NO
+        , T.*
+        FROM (
+          SELECT * FROM TB_BIZ
+          WHERE 1=1
+        ) AS T
+      )
+      SELECT * FROM RST T1
+      WHERE 1=1
+      LIMIT 12, 12
+
+    
+2022-02-23 14:31:15 info: [POST] /v1/partnerCenter/selectPartnerCenterList
+2022-02-23 14:31:15 info: [EXCUTE SQL] partnerCenterMapper > selectPartnerCenterList
+2022-02-23 14:31:15 info: [sql] : 
+      WITH RST AS (
+        SELECT ROW_NUMBER() OVER() NO
+        , T.*
+        FROM (
+          SELECT * FROM TB_BIZ
+          WHERE 1=1
+        ) AS T
+      )
+      SELECT * FROM RST T1
+      WHERE 1=1
+      LIMIT 0, 12
+
+    
+2022-02-23 15:07:41 info: MybScmSvr listening on port : 3001
+2022-02-23 15:07:54 info: [POST] /v1/auth/login
+2022-02-23 15:07:54 info: [EXCUTE SQL] authMapper > selectLoginChk
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT COUNT(*) CNT FROM TB_ACCOUNT A
+      WHERE 1=1
+      AND A.ACC_USER_ID = 'admin'
+      AND A.ACC_PWD = 'D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] authMapper > selectAccountInfo
+2022-02-23 15:07:54 info: [sql] : 
+      SELECT * FROM TB_ACCOUNT A
+      WHERE 1=1
+      AND A.ACC_USER_ID = 'admin'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] authMapper > insertUserLoginHist
+2022-02-23 15:07:54 info: [sql] : 
+    INSERT INTO TB_LOGIN_HIST
+    ( ACC_ID
+    , ACCESS_TOKEN
+    , REFRESH_TOKEN
+    , FST_REG_ID
+    , FST_REG_DT)
+    VALUES(
+    (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+    , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.j2_ihqd0bJpWxRAcU_fu0UXqujfD0kMM7BptDCA0UQJ9xSu-mFZZRFxaCjNfmn0Lq9FlTbBTcpkREmhocI3aIw'
+    , 'eyJhbGciOiJIUzUxMiJ9.eyJhY2NJZCI6MSwiYWNjVXNlcklkIjoiYWRtaW4iLCJhY2NNbmdObSI6IuywqOyKueywrCJ9.gl-TpqCEd90oJu_rmLb2y6XRIzScjx-_CcNvGH0OSEjGrY_CDvYAA815EduoVL5Rhl0rSUK_htFkKloQ-c9TeQ'
+    , (SELECT ACC_ID FROM TB_ACCOUNT WHERE ACC_USER_ID = 'admin')
+    , SYSDATE()
+    )
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectTopMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '2'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '21'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '22'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '5'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:07:54 info: [EXCUTE SQL] menuMapper > selectChildMenuList
+2022-02-23 15:07:54 info: [sql] : 
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '23'
+    AND A.USE_YN = 'Y'
+  
+2022-02-23 15:27:47 info: MybScmSvr listening on port : 3001
+2022-02-23 15:51:07 info: MybScmSvr listening on port : 3001
+2022-02-23 18:00:18 info: MybScmSvr listening on port : 3001
+2022-02-23 18:00:33 info: [POST] /v1/product/insertProductInfo
+2022-02-23 18:00:33 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-02-23 18:00:33 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-02-23 18:00:33 error: Error: Error: ReferenceError: fileService is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:47:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:54:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 18:00:42 info: MybScmSvr listening on port : 3001
+2022-02-23 18:00:44 info: [POST] /v1/product/insertProductInfo
+2022-02-23 18:00:44 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-02-23 18:00:44 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-02-23 18:00:44 error: Error: Error: ReferenceError: fileService is not defined
+    at Object.insertProductInfo (C:\myb\source\backEnd\mybScmSvr\api\v1\product\productService.js:54:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:47:17
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\product\productController.js:54:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-23 18:01:35 info: MybScmSvr listening on port : 3001
+2022-02-23 18:01:37 info: [POST] /v1/product/insertProductInfo
+2022-02-23 18:01:37 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-02-23 18:01:37 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-02-23 18:01:37 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-02-23 18:01:37 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220223180137_027bfd28670b94b4133bfce6e917c0ce.png'
+    , '20220223180137_027bfd28670b94b4133bfce6e917c0ce.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  
+2022-02-23 18:01:58 info: MybScmSvr listening on port : 3001
+2022-02-23 18:01:59 info: [POST] /v1/product/insertProductInfo
+2022-02-23 18:01:59 info: [EXCUTE SQL] productMapper > insertProductInfo
+2022-02-23 18:01:59 info: [sql] : 
+      INSERT INTO TB_PRODUCT
+      (
+        PRODUCT_BRD_NM
+        , PRODUCT_NM
+        , PRODUCT_PRICE
+        , PRODUCT_DISC_RATE
+        , PRODUCT_EXPLAIN
+        , USE_YN
+        , OPEN_YN
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        '마이비2'
+        , '도시락2'
+        , '16000'
+        , '15'
+        , '신선하고 맛있는 식품입니다.'
+        , 'Y'
+        , 'N'
+        , '1'
+        , SYSDATE()
+        , '1'
+        , SYSDATE()
+      )
+    
+2022-02-23 18:01:59 info: [EXCUTE SQL] fileMapper > insertFileInfo
+2022-02-23 18:01:59 info: [sql] : 
+    INSERT INTO TB_IMG
+    (
+    IMG_PATH
+    , IMG_FILE_NM
+    , FST_REG_ID
+    , FST_REG_DT
+    , LST_CHG_ID
+    , LST_CHG_DT
+    )
+    VALUES(
+    '/scm/product/20220223180159_027bfd28670b94b4133bfce6e917c0ce.png'
+    , '20220223180159_027bfd28670b94b4133bfce6e917c0ce.png'
+    , '1'
+    , SYSDATE()
+    , '1'
+    , SYSDATE()
+    )
+  

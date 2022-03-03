@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="partnerCenterMapper">
+    <insert id="insertAccountInfo">
+      INSERT INTO TB_ACCOUNT
+      (
+        ACC_USER_ID
+        , ACC_PWD
+        , ACC_AUTH_GRP
+        , ACC_MNG_NM
+        , ACC_MNG_TEL_NO
+        , ACC_MNG_PHONE_NO
+        , ACC_MNG_EMAIL
+        , BIZ_ID
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES(
+        #{accUserId}
+        , #{accPwd}
+        , #{accAuthGrp}
+        , #{accMngNm}
+        , #{accMngTelNo}
+        , #{accMngPhoneNo}
+        , #{accMngEmail}
+        , NULL
+        , NULL
+        , NULL
+        , SYSDATE()
+        , NULL
+        , SYSDATE()
+      )
+    </insert>
+    <insert id="insertPartnerBizInfo">
+      INSERT INTO TB_BIZ
+      (
+         BIZ_NM
+        , BIZ_CEO_NM
+        , BIZ_NO
+        , BIZ_NO_IMG
+        , BIZ_CORP_REG_NO
+        , BIZ_BUSINESS_TYPE
+        , BIZ_BUSINESS_KIND
+        , BIZ_MAIN_ITEM_HANDLE
+        , BIZ_ADDRESS
+        , BIZ_ADDRESS_SUB
+        , BIZ_TEL_NO
+        , BIZ_SVC_TEL_NO
+        , BIZ_FAX_NO
+        , BIZ_BANK_NM
+        , BIZ_BANK_ACCOUNT_NO
+        , BIZ_BANK_BOOK_IMG
+        , BIZ_CAL_MNG_NM
+        , BIZ_CAL_MNG_TEL_NO
+        , BIZ_CAL_MNG_PHONE_NO
+        , BIZ_CAL_MNG_EMAIL
+        , BIZ_CS_MNG_NM
+        , BIZ_CS_MNG_TEL_NO
+        , BIZ_CS_MNG_PHONE_NO
+        , BIZ_CS_MNG_EMAIL
+        , BIZ_SALE_MNG_NM
+        , BIZ_SALE_MNG_TEL_NO
+        , BIZ_SALE_MNG_PHONE_NO
+        , BIZ_SALE_MNG_EMAIL
+        , IMG_ID
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+        )
+      VALUES(
+        #{bizNm}
+        , #{bizCeoNm}
+        , #{bizNo}
+        , #{bizNoImg}
+        , #{bizCorpRegNo}
+        , #{bizBusinessType}
+        , #{bizBusinessKind}
+        , #{bizMainItemHandle}
+        , #{bizAddress}
+        , #{bizAddressSub}
+        , #{bizTelNo}
+        , #{bizSvcTelNo}
+        , #{bizFaxNo}
+        , #{bizBankNm}
+        , #{bizBankAccountNo}
+        , #{bizBankBookImg}
+        , #{bizCalMngNm}
+        , #{bizCalMngTelNo}
+        , #{bizCalMngPhoneNo}
+        , #{bizCalMngEmail}
+        , #{bizCsMngNm}
+        , #{bizCsMngTelNo}
+        , #{bizCsMngPhoneNo}
+        , #{bizCsMngEmail}
+        , #{bizSaleMngNm}
+        , #{bizSaleMngTelNo}
+        , #{bizSaleMngPhoneNo}
+        , #{bizSaleMngEmail}
+        , NULL
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+        )
+    </insert>
+    <update id="updatePartnerAccountInfo">
+      UPDATE TB_ACCOUNT
+      SET BIZ_ID = #{bizId}
+      , FST_REG_ID = #{accId}
+      , LST_CHG_ID = #{accId}
+      WHERE ACC_ID = #{accId}
+    </update>
+    <select id="selectPartnerCenterList">
+      WITH RST AS (
+        SELECT ROW_NUMBER() OVER() NO
+        , T.*
+        FROM (
+          SELECT * FROM TB_BIZ
+          WHERE 1=1
+        ) AS T
+      )
+      SELECT * FROM RST T1
+      WHERE 1=1
+      LIMIT ${startNo}, ${pageTerm}
+    </select>
+    <insert id="insertBrandInfo">
+      INSERT INTO TB_BIZ_BRAND
+      (
+        BIZ_ID
+        , BRAND_NM
+        , FST_REG_ID
+        , FST_REG_DT
+        , LST_CHG_ID
+        , LST_CHG_DT
+      )
+      VALUES
+      (
+        #{bizId}
+        , #{brandNm}
+        , #{accId}
+        , SYSDATE()
+        , #{accId}
+        , SYSDATE()
+      )
+    </insert>
+    <select id="selectBrandList">
+      SELECT 
+      ROW_NUMBER() OVER() NO
+      , A.* FROM TB_BIZ_BRAND A
+      WHERE 1=1
+      AND A.BIZ_ID = #{bizId}
+    </select>
+    
+    
+</mapper>

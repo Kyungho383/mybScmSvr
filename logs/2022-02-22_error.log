@@ -1,0 +1,31 @@
+2022-02-22 18:14:30 error: Error: TypeError: partnerCenterService.insertPartnerAccountInfo is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-22 18:15:05 error: Error: TypeError: partnerCenterService.insertPartnerAccountInfo is not a function
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\layer.js:95:5)
+    at C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\myb\source\backEnd\mybScmSvr\node_modules\express\lib\router\index.js:47:12)
+2022-02-22 18:27:33 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-22 18:27:49 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-02-22 18:28:03 error: Error: Error: Error
+    at C:\myb\source\backEnd\mybScmSvr\api\v1\partnerCenter\partnerCenterController.js:16:12
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="menuMapper">
+
+  <select id="selectMenuList">
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+  </select>
+
+  <select id="selectMenuDeptGrpList">
+    SELECT MENU_DEPT FROM TB_MENU
+    GROUP BY MENU_DEPT
+    ORDER BY MENU_DEPT
+  </select>
+
+  <select id="selectChildMenuList">
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = #{menuId}
+    AND A.USE_YN = 'Y'
+  </select>
+  <select id="selectTopMenuList">
+    SELECT * FROM TB_MENU A
+    WHERE 1=1
+    AND A.PARRENT_ID = '0'
+    AND A.USE_YN = 'Y'
+  </select>
+
+  <insert id="insertMenuInfo">
+    INSERT INTO TB_MENU
+    (
+      MENU_NM
+      , MENU_DEPT
+      , PARRENT_ID
+      , MENU_PATH
+      , MENU_ICON
+      , USE_YN
+      , FST_REG_ID
+      , FST_REG_DT
+      , LST_CHG_ID
+      , LST_CHG_DT
+    )
+    VALUES(
+      #{menuNm}
+      , #{menuDept}
+      , #{parrentId}
+      , #{menuPath}
+      , #{menuIcon}
+      , UPPER(#{useYn})
+      , #{accId}
+      , SYSDATE() 
+      , #{accId}
+      , SYSDATE() 
+    )
+  </insert>
+
+  <delete id="deleteMenuInfo">
+    DELETE FROM TB_MENU
+    WHERE MENU_ID = #{menuId}
+  </delete>
+
+  <update id="updateMenuInfo">
+    UPDATE TB_MENU
+    SET
+      MENU_NM = #{menuNm}
+      , MENU_DEPT = #{menuDept}
+      , PARRENT_ID = #{parrentId}
+      , MENU_PATH = #{menuPath}
+      , MENU_ICON = #{menuIcon}
+      , USE_YN = UPPER(#{useYn})
+      , LST_CHG_ID = #{accId}
+      , LST_CHG_DT = SYSDATE() 
+    WHERE
+      MENU_ID = #{menuId}
+  </update>
+
+</mapper>
